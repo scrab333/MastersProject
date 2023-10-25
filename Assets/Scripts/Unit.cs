@@ -21,6 +21,9 @@ public class Unit : MonoBehaviour
             float moveSpeed = 4f; 
             transform.position += moveDirection * moveSpeed * Time.deltaTime; //Move unit, framerate independant
 
+            float rotateSpeed = 10f;
+            transform.forward = Vector3.Lerp(transform.forward, moveDirection, Time.deltaTime * rotateSpeed);
+
             unitAnimator.SetBool("Is_Running", true);
         }else
         {
