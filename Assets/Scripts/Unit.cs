@@ -7,16 +7,24 @@ using UnityEngine;
 
 public class Unit : MonoBehaviour
 {
+    [SerializeField] private Animator unitAnimator;
+
     private Vector3 targetPosition;
 
     private void Update()
     {
+
         float stoppingDistance = .1f;
         if(Vector3.Distance(transform.position, targetPosition) > stoppingDistance) //So we stop at the position
         {
             Vector3 moveDirection = (targetPosition - transform.position).normalized; //Find move direction
             float moveSpeed = 4f; 
             transform.position += moveDirection * moveSpeed * Time.deltaTime; //Move unit, framerate independant
+
+            unitAnimator.SetBool("Is_Running", true);
+        }else
+        {
+            unitAnimator.SetBool("Is_Running", false);
         }
        
 
