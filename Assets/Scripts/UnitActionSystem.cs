@@ -31,6 +31,7 @@ public class UnitActionSystem : MonoBehaviour
         {
             if (TryHandleUnitSelection()) return;
             selectedUnit.Move(MouseWorld.GetPosition()); //Moves to mouse position 
+
         }
     }
 
@@ -41,7 +42,7 @@ public class UnitActionSystem : MonoBehaviour
         {
             if (raycastHit.transform.TryGetComponent<Unit>(out Unit Unit))
             {
-                selectedUnit = Unit;
+                SetSelectedUnit(Unit);
                 return true;
             }
         }
