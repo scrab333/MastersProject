@@ -1,12 +1,13 @@
+using System.CodeDom;
 using System.Collections;
 using System.Collections.Generic;
-using System.Collections.Specialized;
 using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 
 public class Testing : MonoBehaviour
 {
 
+    [SerializeField] private Unit unit;
 
     private void Start()
     {
@@ -14,5 +15,11 @@ public class Testing : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            GridSystemVisual.Instance.HideAllGridPosition();
+            GridSystemVisual.Instance.ShowGridPositionList(
+                unit.GetMoveAction().GetValidActionGridPositionList());
+        }
     }
 }

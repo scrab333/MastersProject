@@ -30,8 +30,18 @@ public class UnitActionSystem : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             if (TryHandleUnitSelection()) return;
-            selectedUnit.Move(MouseWorld.GetPosition()); //Moves to mouse position 
 
+            GridPosition mouseGridPosition = LevelGrid.Instance.GetGridPosition(MouseWorld.GetPosition());
+            if (selectedUnit.GetMoveAction().IsValidActionGridPosition(mouseGridPosition))
+            {
+                selectedUnit.GetMoveAction().Move(mouseGridPosition); // moves to mouse pos
+            }
+            
+            
+        }
+        if (Input.GetMouseButtonDown(1))
+        {
+            selectedUnit.GetSpinAction().Spin();
         }
     }
 
