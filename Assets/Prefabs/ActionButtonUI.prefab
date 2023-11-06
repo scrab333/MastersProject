@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5819031532033477635}
   - component: {fileID: 7794369128365702995}
   - component: {fileID: 5966072723850356422}
+  - component: {fileID: -2832600051813084689}
   m_Layer: 5
   m_Name: ActionButtonUI
   m_TagString: Untagged
@@ -153,6 +154,20 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 5, y: -5}
   m_UseGraphicAlpha: 1
+--- !u!114 &-2832600051813084689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5860528131396440330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 515c284afd919b040b01578ff4eccc02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshPro: {fileID: 1688217934474780213}
+  button: {fileID: 5819031532033477635}
 --- !u!1 &6118786391025094308
 GameObject:
   m_ObjectHideFlags: 0
