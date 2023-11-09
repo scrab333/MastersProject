@@ -44,6 +44,11 @@ public class UnitActionSystem : MonoBehaviour
             return;
         }
 
+        if (!TurnSystem.Instance.IsPlayerTurn())
+        {
+            return;
+        }
+
         if (EventSystem.current.IsPointerOverGameObject())
         {
             return;
@@ -86,15 +91,21 @@ public class UnitActionSystem : MonoBehaviour
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);//we do a little raycast by grabbing the mouse position from where it's currently at
             if (Physics.Raycast(ray, out RaycastHit raycastHit, float.MaxValue, unitLayerMask))//here we make a proper raycast, note whenever we want to use the object with
             {
-                if (raycastHit.transform.TryGetComponent<Unit>(out Unit Unit))
+                if (raycastHit.transform.TryGetComponent<Unit>(out Unit unit))
                 {
-                    if(Unit == selectedUnit)
+                    if(unit == selectedUnit)
                     {
-                        //this unit is already a dan
+                        //this unit is already a dan (unit)
                         return false;
                     }
 
-                    SetSelectedUnit(Unit);
+                    if (unit.IsEnemy())
+                    {
+                        // Clicked on another man (enemy)
+                        return false;
+                    }
+
+                    SetSelectedUnit(unit);
                     return true;
                 }
             }
