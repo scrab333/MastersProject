@@ -87,7 +87,7 @@ public class ShootAction : BaseAction
     private void Shoot()
     {
         OnShoot?.Invoke(this, new OnShootEventArgs { targetUnit = targetUnit, shootingUnit = unit});
-        targetUnit.Damage();
+        targetUnit.Damage(4);//reminder to make damage randomized at some point
     }
 
     public override string GetActionName()

@@ -1,0 +1,769 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.7f1 (24e8595d6d43) revision 2418777'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'pl' Physical Memory: 32697 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/scrab/Downloads/unity/MastersProject/My project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54191
+Successfully changed project path to: C:/Users/scrab/Downloads/unity/MastersProject/My project
+C:/Users/scrab/Downloads/unity/MastersProject/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 157.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.7f1 (24e8595d6d43)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/scrab/Downloads/unity/MastersProject/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
+    Vendor:   NVIDIA
+    VRAM:     8056 MB
+    Driver:   31.0.15.3734
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017855 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 115.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.093 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1094ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (780ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (213ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (433ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (96ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (115ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (150ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014256 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\scrab\Downloads\unity\MastersProject\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\scrab\Downloads\unity\MastersProject\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.844 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1845ms)
+		BeginReloadAssembly (299ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (149ms)
+		EndReloadAssembly (1340ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (415ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (633ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (156ms)
+				ProcessInitializeOnLoadAttributes (382ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.0 KB). Loaded Objects now: 3836.
+Memory consumption went from 116.2 MB to 116.1 MB.
+Total: 7.136200 ms (FindLiveObjects: 0.550500 ms CreateObjectMapping: 0.152400 ms MarkObjects: 6.212900 ms  DeleteObjects: 0.218500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9912.191666 seconds.
+  path: Assets/ModularDungeon
+  artifactKey: Guid(5f4e0fd116fc983469105dfc21e38139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularDungeon using Guid(5f4e0fd116fc983469105dfc21e38139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04611bd1393c77ce84d1a9190d0e074d') in 0.013614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ModularDungeon/Lights.fbx
+  artifactKey: Guid(471910a42e73879458b953bb6c83055b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularDungeon/Lights.fbx using Guid(471910a42e73879458b953bb6c83055b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3c35f820a6f4b83cf09c19bdf0d19d') in 1.452578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/ModularDungeon/Prefabs/Wall4m.prefab
+  artifactKey: Guid(239a0c81ad9e80c4ca7c3dab0cc28ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularDungeon/Prefabs/Wall4m.prefab using Guid(239a0c81ad9e80c4ca7c3dab0cc28ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3db7ea2d6147aa36dca218cdd8ce2fe') in 0.034429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/ModularDungeon/Prefabs/LightCandleHolderB01.prefab
+  artifactKey: Guid(e29689edab6522b449cba41e44430c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularDungeon/Prefabs/LightCandleHolderB01.prefab using Guid(e29689edab6522b449cba41e44430c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49194f8f9b9644e51e07aca58d304cb') in 0.106380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ModularDungeon/Barrels.fbx
+  artifactKey: Guid(6945333d61bdd7947aa155c3bb49911f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularDungeon/Barrels.fbx using Guid(6945333d61bdd7947aa155c3bb49911f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03fbeee1cc20c62f872bec389a7747e') in 0.120324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/ModularDungeon/Prefabs/SK_Flame.prefab
+  artifactKey: Guid(9ea2d556f5c654947928d36728f62689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularDungeon/Prefabs/SK_Flame.prefab using Guid(9ea2d556f5c654947928d36728f62689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5e23e4de41659d09433df3233d54a7') in 0.677339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ModularDungeon/Prefabs/LightCandleHolderB08.prefab
+  artifactKey: Guid(221ef7f7ac1298847aca41ec2cd33709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularDungeon/Prefabs/LightCandleHolderB08.prefab using Guid(221ef7f7ac1298847aca41ec2cd33709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef848aeccf03eca973c67df53dffe315') in 0.096101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ModularDungeon/SK_Flame.fbx
+  artifactKey: Guid(6f945433146cef346be6cdf1b22aafdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularDungeon/SK_Flame.fbx using Guid(6f945433146cef346be6cdf1b22aafdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee92289232e5137777c669a8ac87273') in 0.033307 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014470 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\scrab\Downloads\unity\MastersProject\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\scrab\Downloads\unity\MastersProject\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.531 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1532ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1193ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (381ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (544ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (323ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.2 KB). Loaded Objects now: 3851.
+Memory consumption went from 133.7 MB to 133.6 MB.
+Total: 3.896600 ms (FindLiveObjects: 0.345400 ms CreateObjectMapping: 0.097800 ms MarkObjects: 3.345900 ms  DeleteObjects: 0.106400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010366 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\scrab\Downloads\unity\MastersProject\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\scrab\Downloads\unity\MastersProject\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.557 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1558ms)
+		BeginReloadAssembly (206ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1178ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (405ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (521ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (313ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.3 KB). Loaded Objects now: 3855.
+Memory consumption went from 133.7 MB to 133.7 MB.
+Total: 4.489100 ms (FindLiveObjects: 0.408700 ms CreateObjectMapping: 0.104000 ms MarkObjects: 3.858400 ms  DeleteObjects: 0.116600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 555.280918 seconds.
+  path: Assets/Dialogue_Anims
+  artifactKey: Guid(2a80f09d6d3793b46a1a95838208b3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims using Guid(2a80f09d6d3793b46a1a95838208b3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8892640b1b0731ecf6b083b92f35595c') in 0.009497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.676430 seconds.
+  path: Assets/Cryptid - Low Poly Monsters
+  artifactKey: Guid(ef47b84bef740b040a47226590c8a0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptid - Low Poly Monsters using Guid(ef47b84bef740b040a47226590c8a0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5aff0ca73391cb787679ee7f6f8490') in 0.002559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.601797 seconds.
+  path: Assets/Cryptid - Low Poly Monsters/Contents
+  artifactKey: Guid(fa028d49f511fbb4790213c79dd2c780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptid - Low Poly Monsters/Contents using Guid(fa028d49f511fbb4790213c79dd2c780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f687134a0fcd3dc986cc0997b269d46b') in 0.002504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.556784 seconds.
+  path: Assets/Cryptid - Low Poly Monsters/Scenes
+  artifactKey: Guid(7338b15ee3538bc419575b10c4822553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptid - Low Poly Monsters/Scenes using Guid(7338b15ee3538bc419575b10c4822553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3095e658ded0544819123f58535c42') in 0.002529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.643784 seconds.
+  path: Assets/Cryptid - Low Poly Monsters/Scenes/Demo.unity
+  artifactKey: Guid(6f0ac4555ded8cd4796fb16714cd287b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cryptid - Low Poly Monsters/Scenes/Demo.unity using Guid(6f0ac4555ded8cd4796fb16714cd287b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50d0609e90334569eada5af903a31e9') in 0.002582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.956651 seconds.
+  path: Assets/Dialogue_Anims/Animations
+  artifactKey: Guid(bc17f49022e4da747adac60807762c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations using Guid(bc17f49022e4da747adac60807762c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ac7f1aaf8abc5a94d13a261c85f91f') in 0.002459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.082503 seconds.
+  path: Assets/Dialogue_Anims/Animations/T_pose.fbx
+  artifactKey: Guid(0bdc97cfb332de44fb61d17bfe1627c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/T_pose.fbx using Guid(0bdc97cfb332de44fb61d17bfe1627c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544af5b5240e071238b4a1405fbddbcf') in 0.058967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Expressive_HandGesture01.FBX
+  artifactKey: Guid(aa094b5bd4972484c8910053302f2212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Expressive_HandGesture01.FBX using Guid(aa094b5bd4972484c8910053302f2212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781c8b17fddc13f74da4106819083d62') in 0.022119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_HandOnHip_Enter.FBX
+  artifactKey: Guid(fb95dcb6ea5dc914783ca30acd1dc2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_HandOnHip_Enter.FBX using Guid(fb95dcb6ea5dc914783ca30acd1dc2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1f6d6c7f80a6549f7a91757d06ca0c') in 0.018651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Goblin_04.FBX
+  artifactKey: Guid(3ce600baedf0fea46979feb5437e869c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Goblin_04.FBX using Guid(3ce600baedf0fea46979feb5437e869c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c4221151a056670ddb824787e7c936') in 0.020448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Casual_HandGesture03.FBX
+  artifactKey: Guid(d440130a5934cb540b69d975b952034e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Casual_HandGesture03.FBX using Guid(d440130a5934cb540b69d975b952034e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6df2b2106436eec80d2bc81693fe58f') in 0.020001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Expressive_FullBody01.FBX
+  artifactKey: Guid(21534c65d4bb1594e9480bb15ff6a3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Expressive_FullBody01.FBX using Guid(21534c65d4bb1594e9480bb15ff6a3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89bf2c2f3d809469a5fda0a233343a23') in 0.018831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_HandOnHip_HandGesture01.FBX
+  artifactKey: Guid(7bf7e3795717e354eae027c3053f207d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_HandOnHip_HandGesture01.FBX using Guid(7bf7e3795717e354eae027c3053f207d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fafa175cb93eca217d93821ba77f256') in 0.029179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_ElbowRest_Idle.FBX
+  artifactKey: Guid(372c4fe3c6a405340875b4d838c76ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_ElbowRest_Idle.FBX using Guid(372c4fe3c6a405340875b4d838c76ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f2a0b388643c454d17e4e4eca62b2c') in 0.020037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_HandOnHip_HandGesture11.FBX
+  artifactKey: Guid(9321f13abf1df404bb8e30e939fe738d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_HandOnHip_HandGesture11.FBX using Guid(9321f13abf1df404bb8e30e939fe738d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d272d0810eda0b719477369a3d89686') in 0.018829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Cheesy_RH_FistPump.FBX
+  artifactKey: Guid(757da7a6b60e3cd4f981fb238baf91be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Cheesy_RH_FistPump.FBX using Guid(757da7a6b60e3cd4f981fb238baf91be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7daa108fe63b682f1d7cfc1236f14eca') in 0.019608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Expressive_FullBody05.FBX
+  artifactKey: Guid(442bcfa847e2830478baf7ea36d16cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Expressive_FullBody05.FBX using Guid(442bcfa847e2830478baf7ea36d16cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac311a0e5b877a23e91fe184a41f23f6') in 0.019209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Casual_HandGesture09.FBX
+  artifactKey: Guid(b30f444d8eef20c44bccde6a7c3c263b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Casual_HandGesture09.FBX using Guid(b30f444d8eef20c44bccde6a7c3c263b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dab62d5ce12e8bdbd9d785200b2014b') in 0.019844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Casual_HandGesture19.FBX
+  artifactKey: Guid(99319b029eb7e4b438139342324e3bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Casual_HandGesture19.FBX using Guid(99319b029eb7e4b438139342324e3bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f3f7a7808a39ade11825dd0cb55a5d') in 0.021836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Expressive_HandGesture08.FBX
+  artifactKey: Guid(8d41188cd9d986a48a8b3203bdbfc1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Expressive_HandGesture08.FBX using Guid(8d41188cd9d986a48a8b3203bdbfc1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3ae3f47cf7ea1e46f3600bd49179af') in 0.020179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Casual_HandGesture18.FBX
+  artifactKey: Guid(5e343cdad09c6e94182eec69387f3d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Casual_HandGesture18.FBX using Guid(5e343cdad09c6e94182eec69387f3d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba610a7152783e8b3a7a4a100dd270a') in 0.020946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_HandOnHip_HandGesture10.FBX
+  artifactKey: Guid(d0ec5c810556f87429a19f2a028cca01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_HandOnHip_HandGesture10.FBX using Guid(d0ec5c810556f87429a19f2a028cca01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba665b6535415b80096531b95bfc6e2c') in 0.019037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_ToughGuy_ChestPound01.FBX
+  artifactKey: Guid(1a8cbe3920bb1b54f99b36804f9aa06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_ToughGuy_ChestPound01.FBX using Guid(1a8cbe3920bb1b54f99b36804f9aa06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7fa178cb61b1733f336be99ee7ff62') in 0.019900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Expressive_FullBody04.FBX
+  artifactKey: Guid(5f00041310e17da469ef95f8cc454e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Expressive_FullBody04.FBX using Guid(5f00041310e17da469ef95f8cc454e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93bd8115dad674fb3ceab9461f01f21d') in 0.020720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Creep_HandGesture03.FBX
+  artifactKey: Guid(1e3ac78d0428a324dbd8505276b42e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Creep_HandGesture03.FBX using Guid(1e3ac78d0428a324dbd8505276b42e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2060b6982153d4c13c8b0aa68376ea94') in 0.018382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Expressive_FullBody02.FBX
+  artifactKey: Guid(8efe02021ab609845845a8084bd4cdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Expressive_FullBody02.FBX using Guid(8efe02021ab609845845a8084bd4cdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ee3e46fc535cc4096588dd7681e0a8') in 0.022373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Casual_HandGesture13.FBX
+  artifactKey: Guid(5ca841b46de15b34f8e3dd17c2e1eb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Casual_HandGesture13.FBX using Guid(5ca841b46de15b34f8e3dd17c2e1eb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade26162fc2cd0ab8a30b0587afaf53e') in 0.028456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Creep_HandGesture08.FBX
+  artifactKey: Guid(981afef8854cfab46bd175fa29520a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Creep_HandGesture08.FBX using Guid(981afef8854cfab46bd175fa29520a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497580acac570ecedc0bac978e40734c') in 0.035960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Creep_HandGesture07.FBX
+  artifactKey: Guid(3dd2e147edd7b794a8691a0af7b5238b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Creep_HandGesture07.FBX using Guid(3dd2e147edd7b794a8691a0af7b5238b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b270c80b61200f87881a5582afcb02fb') in 0.019437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Cheesy_LH_ThumbsUp.FBX
+  artifactKey: Guid(c08866ba5cf438943a4bf6a254fc3d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Cheesy_LH_ThumbsUp.FBX using Guid(c08866ba5cf438943a4bf6a254fc3d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5b64d4d5589431c246b2333b5cf702') in 0.018809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Creep_HandGesture06.FBX
+  artifactKey: Guid(b713844b235d6fd4093a89485f6801d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Creep_HandGesture06.FBX using Guid(b713844b235d6fd4093a89485f6801d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157198d6cfb9f6841fc44333105a8696') in 0.022309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Creep_HandGesture01.FBX
+  artifactKey: Guid(519903e9d12168b48812353c7186c8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Creep_HandGesture01.FBX using Guid(519903e9d12168b48812353c7186c8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482f85cfd6bd69034cf40aabef5fbf50') in 0.019040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_HandOnHip_HandGesture14.FBX
+  artifactKey: Guid(db8062e593a11104683dc5aa573acb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_HandOnHip_HandGesture14.FBX using Guid(db8062e593a11104683dc5aa573acb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67cb374c33090a30a34fceb33732849f') in 0.019942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Expressive_Idle.fbx
+  artifactKey: Guid(c80aeb7dd0cdf914180f62f3a1896b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Expressive_Idle.fbx using Guid(c80aeb7dd0cdf914180f62f3a1896b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d72bb5cf8d9d03c42a78cb6f29e488d') in 0.019394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Cheesy_DoubleWideThumbsUp.FBX
+  artifactKey: Guid(2f26e825c7076dc4db68f273ee53d124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Cheesy_DoubleWideThumbsUp.FBX using Guid(2f26e825c7076dc4db68f273ee53d124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b99687a5138ff5d4334a1ff3cf5d47') in 0.020477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Expressive_HandGesture02.FBX
+  artifactKey: Guid(d9830b3e0f533b04b9e130797edbb510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Expressive_HandGesture02.FBX using Guid(d9830b3e0f533b04b9e130797edbb510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4130ec746331d07b48834d8236d847') in 0.018764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Casual_HandGesture06.FBX
+  artifactKey: Guid(b850fd2c0dd318c4ebdc402ae520789b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Casual_HandGesture06.FBX using Guid(b850fd2c0dd318c4ebdc402ae520789b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3c61a9f465d2f955d484ac3a6170c1') in 0.021783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Casual_HandGesture12.FBX
+  artifactKey: Guid(605c605fc6d00b049a3dc2064c1a94c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Casual_HandGesture12.FBX using Guid(605c605fc6d00b049a3dc2064c1a94c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f4f36bc420c601826084d743b0c1ac') in 0.019982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Creep_HandGesture02.FBX
+  artifactKey: Guid(c17aed230992cc54ba9b13224b0a383b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Creep_HandGesture02.FBX using Guid(c17aed230992cc54ba9b13224b0a383b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6514301fef0396c9b404acf52d0f4d') in 0.019896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_HandOnHip_HandGesture08.FBX
+  artifactKey: Guid(0566ea98c77a84649a7751558a277f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_HandOnHip_HandGesture08.FBX using Guid(0566ea98c77a84649a7751558a277f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2ef6a452343d862c9ef21306b05795') in 0.018601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Expressive_HandGesture04.FBX
+  artifactKey: Guid(2ac68c5673db7fb4abd42a3609e11f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Expressive_HandGesture04.FBX using Guid(2ac68c5673db7fb4abd42a3609e11f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9eed932a1108aa180fd4dc77b962ddc') in 0.019829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Creep_HandGesture05.FBX
+  artifactKey: Guid(87700363767f3c640b40637dfc3cafb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Creep_HandGesture05.FBX using Guid(87700363767f3c640b40637dfc3cafb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed45be3acbcca96622af55785d9161d') in 0.019195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Expressive_HandGesture11.FBX
+  artifactKey: Guid(538548d97b4ff8a49b71184178734ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Expressive_HandGesture11.FBX using Guid(538548d97b4ff8a49b71184178734ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb6f96e843d570d8abedf4c6ba8e8bf') in 0.018400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Casual_HandGesture10.FBX
+  artifactKey: Guid(c2b92cc8b7938ed4bbae460855607561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Casual_HandGesture10.FBX using Guid(c2b92cc8b7938ed4bbae460855607561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92793508c829745fa0ab378981f56ac5') in 0.015397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_ElbowRest_HandGesture02.FBX
+  artifactKey: Guid(1ef780c2c5a69bd408c8320e692cc218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_ElbowRest_HandGesture02.FBX using Guid(1ef780c2c5a69bd408c8320e692cc218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3401a38e3ff15e8ef9410328d80c0e') in 0.019757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Cheesy_DualXfistDown.FBX
+  artifactKey: Guid(d9c15ed669d201543b867e1f456c9583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Cheesy_DualXfistDown.FBX using Guid(d9c15ed669d201543b867e1f456c9583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805265564f7e57ba17c4140427d22d54') in 0.017403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Goblin_Idle.FBX
+  artifactKey: Guid(d4eb88e5156a6194eba00557a733ed11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Goblin_Idle.FBX using Guid(d4eb88e5156a6194eba00557a733ed11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2385335e292ebd679807a09d27e6ebcd') in 0.019664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Expressive_HandGesture10.FBX
+  artifactKey: Guid(304ed161e6c87174c9ef7a373ec0ee6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Expressive_HandGesture10.FBX using Guid(304ed161e6c87174c9ef7a373ec0ee6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51dd6440c8a6c8713e45457e5495341') in 0.019412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_ElbowRest_HandGesture04.FBX
+  artifactKey: Guid(d3bf2149826d9c0459feca8e89adfab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_ElbowRest_HandGesture04.FBX using Guid(d3bf2149826d9c0459feca8e89adfab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc0f04d76fd7eb104127c6c39b77748') in 0.018341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Cheesy_LH_FistPump.FBX
+  artifactKey: Guid(de84d600668a8a8469fbb05224a56a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Cheesy_LH_FistPump.FBX using Guid(de84d600668a8a8469fbb05224a56a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60beef5eedc72f74b25eee9829711e9b') in 0.018965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Expressive_HandGesture03.FBX
+  artifactKey: Guid(f7cad307d4bc66943aefc29d0bee71e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Expressive_HandGesture03.FBX using Guid(f7cad307d4bc66943aefc29d0bee71e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda37b5f81e1a00f0a47f92bc483e303') in 0.018693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Dialogue_Anims/Animations/Talking_Casual_HandGesture17.FBX
+  artifactKey: Guid(8bdcf92e6e462b14f8521bdfd7b551b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Animations/Talking_Casual_HandGesture17.FBX using Guid(8bdcf92e6e462b14f8521bdfd7b551b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b8fd244b448fc90105fc77cd2be28fb') in 0.021904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.382272 seconds.
+  path: Assets/Dialogue_Anims/Demo
+  artifactKey: Guid(f0b7c8204485cdd46ab3bc165f8f31d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Demo using Guid(f0b7c8204485cdd46ab3bc165f8f31d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42fd2d3741d474f072bd50fd4192c597') in 0.002588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.693773 seconds.
+  path: Assets/Dialogue_Anims/Demo/Dialogue_Anims.unity
+  artifactKey: Guid(c445e2f775ddd394886ee4f1b6c2a480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue_Anims/Demo/Dialogue_Anims.unity using Guid(c445e2f775ddd394886ee4f1b6c2a480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438fff866563e4020c27d75158d47489') in 0.002754 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015714 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\scrab\Downloads\unity\MastersProject\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\scrab\Downloads\unity\MastersProject\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.805 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1807ms)
+		BeginReloadAssembly (222ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1424ms)
+			LoadAssemblies (153ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (454ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (651ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (47ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (392ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.2 KB). Loaded Objects now: 3858.
+Memory consumption went from 134.3 MB to 134.3 MB.
+Total: 5.605500 ms (FindLiveObjects: 0.500300 ms CreateObjectMapping: 0.169300 ms MarkObjects: 4.815600 ms  DeleteObjects: 0.118600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011478 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\scrab\Downloads\unity\MastersProject\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\scrab\Downloads\unity\MastersProject\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.579 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1580ms)
+		BeginReloadAssembly (249ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1148ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (375ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (523ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (321ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3372 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (78.2 KB). Loaded Objects now: 3859.
+Memory consumption went from 134.3 MB to 134.2 MB.
+Total: 5.044200 ms (FindLiveObjects: 0.421300 ms CreateObjectMapping: 0.124100 ms MarkObjects: 4.343700 ms  DeleteObjects: 0.153200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
