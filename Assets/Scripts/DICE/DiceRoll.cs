@@ -6,6 +6,8 @@ public class DiceRoll : MonoBehaviour
 {
 
     public Rigidbody rb;
+    public List<GameObject> heightDetector;
+
 
     // Start is called before the first frame update
     void Start()
@@ -17,10 +19,23 @@ public class DiceRoll : MonoBehaviour
     {
         if(HasItStooped() == true)
         {
-
+            int indexResult = FindFaceResult();
         }
     }
 
+    private int FindFaceResult()
+    {
+        int maxIndex = 0;
+        for (int i = 0; i < heightDetector.Count; i++)
+        {
+            if(heightDetector[maxIndex].transform.position.y < heightDetector[i].transform.position.y)
+            {
+                maxIndex = i;
+            }
+        }
+        Debug.Log(maxIndex + 1);
+        return maxIndex;
+    }
 
     public bool HasItStooped()
     {
@@ -57,4 +72,7 @@ public class DiceRoll : MonoBehaviour
         rb.AddTorque(torque, ForceMode.VelocityChange);
 
     }
+
+
+
 }
