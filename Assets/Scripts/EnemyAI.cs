@@ -40,13 +40,19 @@ public class EnemyAI : MonoBehaviour
                 timer -= Time.deltaTime;
                 if (timer <= 0f)
                 {
-                    state = State.WaitingForEnemyTurn;
-                    TurnSystem.Instance.NextTurn();
+                    state = State.Busy;
+                    TakeEnemyAIAction(SetStateTakingTurn);
                 }
                 break;
             case State.Busy:
                 break;
         }    
+    }
+
+    private void SetStateTakingTurn()
+    {
+        timer = 0.5f;
+        state = State.TakingTurn;
     }
 
 
@@ -59,4 +65,8 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
+    private void TakeEnemyAIAction(Action onEnemyAIActionComplete)
+    {
+
+    }
 }
