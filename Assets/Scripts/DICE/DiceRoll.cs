@@ -9,6 +9,7 @@ public class DiceRoll : MonoBehaviour
     public List<GameObject> heightDetector;
 
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -55,14 +56,14 @@ public class DiceRoll : MonoBehaviour
         int z = Random.Range(0, 360);
         Quaternion rotation = Quaternion.Euler(x, y, z);
 
-        x = Random.Range(0, 25);
-        y = Random.Range(0, 25);
-        z = Random.Range(0, 25);
+        x = Random.Range(0, 5);
+        y = Random.Range(0, 5);
+        z = Random.Range(0, 5);
         Vector3 force = new Vector3(x, -y, z);
 
-        x = Random.Range(0, 50);
-        y = Random.Range(0, 50);
-        z = Random.Range(0, 50);
+        x = Random.Range(0, 5);
+        y = Random.Range(0, 5);
+        z = Random.Range(0, 5);
         Vector3 torque = new Vector3(x, y, z);
 
         transform.rotation = rotation;
