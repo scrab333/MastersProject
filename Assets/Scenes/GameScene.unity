@@ -1274,6 +1274,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UnitEnemy
       objectReference: {fileID: 0}
+    - target: {fileID: 8573352955853316539, guid: a44e80d131f1b2341bdc9ad259f626b5, type: 3}
+      propertyPath: obstaclesLayerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3195,6 +3199,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3144180946497174104, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
+      propertyPath: obstaclesLayerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
     - target: {fileID: 4265547617743291283, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
       propertyPath: m_Name
       value: Unit (1)
@@ -3329,6 +3337,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3144180946497174104, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
+      propertyPath: obstaclesLayerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
     - target: {fileID: 4265547617743291283, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
       propertyPath: m_Name
       value: Unit

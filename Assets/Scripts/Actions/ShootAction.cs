@@ -27,6 +27,7 @@ public class ShootAction : BaseAction
     private float stateTimer;
     private Unit targetUnit;
     private bool canShootBullet;
+    [SerializeField] private LayerMask obstaclesLayerMask;
 
     private void Update()
     {
@@ -135,6 +136,20 @@ public class ShootAction : BaseAction
                 if (targetUnit.IsEnemy() == unit.IsEnemy())
                 {
                     // Both Units on the same 'team'
+                    continue;
+                }
+
+                Vector3 unitWorldPosition = LevelGrid.Instance.GetWorldPosition(unitGridPosition);
+                Vector3 shootDir = (targetUnit.GetWorldPosition() - unitWorldPosition).normalized;
+
+                float unitShoulderHeight = 1.7f;
+                if (Physics.Raycast(
+                        unitWorldPosition + Vector3.up * unitShoulderHeight,
+                        shootDir,
+                        Vector3.Distance(unitWorldPosition, targetUnit.GetWorldPosition()),
+                        obstaclesLayerMask))
+                {
+                    // Blocked by jac's giant ass
                     continue;
                 }
 
