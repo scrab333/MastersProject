@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 72074565287c6df4bb64efd111f7ea0f, type: 2}
+  - {fileID: 2100000, guid: 24ac68add7b82e24086bf903198bf701, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -92,9 +92,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7828106590011664092}
-  - component: {fileID: 6296789335923854850}
+  - component: {fileID: 7770921070362845665}
   m_Layer: 0
-  m_Name: GridSystemVisualSingle
+  m_Name: GridSystemVisualHex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -116,7 +116,7 @@ Transform:
   - {fileID: 76374539236490246}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6296789335923854850
+--- !u!114 &7770921070362845665
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -129,4 +129,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 2225910011319548298}
-  selectedGameObject: {fileID: 0}
