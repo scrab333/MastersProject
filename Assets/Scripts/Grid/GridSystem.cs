@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Security.Cryptography;
 using UnityEngine;
-/*
+
 public class GridSystem<TGridObject> 
 {
     private int width;
@@ -79,10 +79,11 @@ public class GridSystem<TGridObject>
         return height;
     }
 }
-*/
+
 
 // Below is hex
 
+/*
 public class GridSystemHex<TGridObject>
 {
     private const float HEX_VERTICAL_OFFSET_MULTIPLIER = 0.75f;
@@ -191,3 +192,4 @@ public class GridSystemHex<TGridObject>
         return height;
     }
 }
+*/

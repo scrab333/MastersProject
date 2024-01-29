@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Security.Cryptography;
 using UnityEngine;
 using static GridSystemVisual;
-/*
+
 public class GridSystemVisual : MonoBehaviour
 {
     public static GridSystemVisual Instance { get; private set; }
@@ -61,16 +61,6 @@ public class GridSystemVisual : MonoBehaviour
         LevelGrid.Instance.OnAnyUnitMovedGridPosition += LevelGrid_OnAnyUnitMovedGridPosition;
 
         UpdateGridVisual();
-
-        // Below is hex stuff, remove it if you don't want it
-        for (int x = 0; x < LevelGrid.Instance.GetHeight(); x++)
-        {
-            for (int z = 0; z < LevelGrid.Instance.GetHeight(); z++)
-            {
-                gridSystemVisualSingleArray[x, z].
-                Show(GetGridVisualTypeMaterial(GridVisualType.White));
-            }
-        }
     }
 
     public void HideAllGridPosition()
@@ -118,20 +108,18 @@ public class GridSystemVisual : MonoBehaviour
 
         for(int x = -range ; x <= range; x++)
         {
-            for (int z = -range ; z <= range ; z++)
+            for (int z = -range; z <= range; z++)
             {
                 GridPosition testGridPosition = gridPosition + new GridPosition(x, z);
 
-                if(!LevelGrid.Instance.IsValidGridPosition(testGridPosition))
+                if (!LevelGrid.Instance.IsValidGridPosition(testGridPosition))
                 {
                     continue;
                 }
 
-ShowGridPositionList(gridPositionList, gridVisualType);
-}
-
                 gridPositionList.Add(testGridPosition);
             }
+            
         }
 
         ShowGridPositionList(gridPositionList, gridVisualType);
@@ -211,10 +199,11 @@ ShowGridPositionList(gridPositionList, gridVisualType);
         return null;
     }
 }
-*/
+
 
 // Below is hex
 
+/*
 public class GridSystemVisual : MonoBehaviour
 {
     public static GridSystemVisual Instance { get; private set; }
@@ -408,3 +397,4 @@ public class GridSystemVisual : MonoBehaviour
         return null;
     }
 }
+*/

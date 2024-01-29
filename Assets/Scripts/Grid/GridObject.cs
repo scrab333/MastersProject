@@ -6,14 +6,14 @@ using UnityEngine;
 public class GridObject
 {
 
-    private GridSystemHex<GridObject> gridSystemHex;
+    private GridSystem<GridObject> gridSystem;
     private GridPosition gridPosition;
     private List<Unit> unitList;
     private IInteractable interactable;
 
-    public GridObject(GridSystemHex<GridObject> gridSystemHex, GridPosition gridPosition)
+    public GridObject(GridSystem<GridObject> gridSystemHex, GridPosition gridPosition)
     {
-        this.gridSystemHex = gridSystemHex;
+        this.gridSystem = gridSystemHex;
         this.gridPosition = gridPosition;
         unitList = new List<Unit>();
     }
