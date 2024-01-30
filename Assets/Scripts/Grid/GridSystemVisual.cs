@@ -6,6 +6,7 @@ using System.Security.Cryptography;
 using UnityEngine;
 using static GridSystemVisual;
 
+/*
 public class GridSystemVisual : MonoBehaviour
 {
     public static GridSystemVisual Instance { get; private set; }
@@ -199,11 +200,11 @@ public class GridSystemVisual : MonoBehaviour
         return null;
     }
 }
-
+*/
 
 // Below is hex
 
-/*
+
 public class GridSystemVisual : MonoBehaviour
 {
     public static GridSystemVisual Instance { get; private set; }
@@ -397,4 +398,3 @@ public class GridSystemVisual : MonoBehaviour
         return null;
     }
 }
-*/

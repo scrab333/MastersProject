@@ -11,9 +11,9 @@ public class GridObject
     private List<Unit> unitList;
     private IInteractable interactable;
 
-    public GridObject(GridSystem<GridObject> gridSystemHex, GridPosition gridPosition)
+    public GridObject(GridSystem<GridObject> gridSystem, GridPosition gridPosition)
     {
-        this.gridSystem = gridSystemHex;
+        this.gridSystem = gridSystem;
         this.gridPosition = gridPosition;
         unitList = new List<Unit>();
     }

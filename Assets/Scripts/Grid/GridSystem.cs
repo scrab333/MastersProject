@@ -5,6 +5,7 @@ using System.Collections.Specialized;
 using System.Security.Cryptography;
 using UnityEngine;
 
+/*
 public class GridSystem<TGridObject> 
 {
     private int width;
@@ -79,12 +80,12 @@ public class GridSystem<TGridObject>
         return height;
     }
 }
-
+*/
 
 // Below is hex
 
-/*
-public class GridSystemHex<TGridObject>
+
+public class GridSystem<TGridObject>
 {
     private const float HEX_VERTICAL_OFFSET_MULTIPLIER = 0.75f;
 
@@ -93,7 +94,7 @@ public class GridSystemHex<TGridObject>
     private float cellSize;
     private TGridObject[,] gridObjectArray;
 
-    public GridSystemHex(int width, int height, float cellSize, Func<GridSystemHex<TGridObject>, GridPosition, TGridObject> createGridObject)
+    public GridSystem(int width, int height, float cellSize, Func<GridSystem<TGridObject>, GridPosition, TGridObject> createGridObject)
     {
         this.width = width;
         this.height = height; //Sets the width and height of the grid
@@ -192,4 +193,3 @@ public class GridSystemHex<TGridObject>
         return height;
     }
 }
-*/

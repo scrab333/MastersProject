@@ -129,4 +129,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 2225910011319548298}
-  selectedGameObject: {fileID: 0}
