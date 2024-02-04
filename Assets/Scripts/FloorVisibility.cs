@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class FloorVisibility : MonoBehaviour
 {
+
+    [SerializeField] private bool dynamicFloorPosition;
+    [SerializeField] private List<Renderer> ignoreRendererList;
+
     private Renderer[] rendererArray;
     private int floor;
 
@@ -16,7 +20,7 @@ public class FloorVisibility : MonoBehaviour
     {
         floor = LevelGrid.Instance.GetFloor(transform.position);
 
-        if(floor == 0)
+        if(floor == 0 && !dynamicFloorPosition)
         {
             Destroy(this);
         }
@@ -24,12 +28,17 @@ public class FloorVisibility : MonoBehaviour
 
     private void Update()
     { 
+        if (dynamicFloorPosition)
+        {
+            floor = LevelGrid.Instance.GetFloor(transform.position);
+        }
+
         float cameraHeight = CameraController.Instance.GetCameraHeight();
 
         float floorHeightOffset = 2f;
         bool showObject = cameraHeight > LevelGrid.FLOOR_HEIGHT * floor + floorHeightOffset;
 
-        if (showObject)
+        if (showObject || floor == 0)
         {
             Show();
         }
@@ -43,6 +52,7 @@ public class FloorVisibility : MonoBehaviour
     {
         foreach (Renderer renderer in rendererArray)
         {
+            if (ignoreRendererList.Contains(renderer)) continue;
             renderer.enabled = true;
         }
     }
@@ -51,6 +61,7 @@ public class FloorVisibility : MonoBehaviour
     {
         foreach (Renderer renderer in rendererArray)
         {
+            if (ignoreRendererList.Contains(renderer)) continue;
             renderer.enabled = false;
         }
     }
