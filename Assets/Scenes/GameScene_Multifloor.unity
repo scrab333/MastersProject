@@ -1634,6 +1634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dynamicFloorPosition: 0
+  ignoreRendererList: []
 --- !u!43 &388092718
 Mesh:
   m_ObjectHideFlags: 0
@@ -13162,6 +13163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dynamicFloorPosition: 0
+  ignoreRendererList: []
 --- !u!1001 &2067108668
 PrefabInstance:
   m_ObjectHideFlags: 0

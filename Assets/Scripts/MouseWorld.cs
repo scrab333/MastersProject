@@ -29,4 +29,27 @@ public class MouseWorld : MonoBehaviour
         return raycastHit.point;//we return the position
     }
 
+    public static Vector3 GetPositionOnlyHitVisible()
+    {
+        Ray ray = Camera.main.ScreenPointToRay(InputManager.Instance.GetMouseScreenPosition());
+        RaycastHit[] raycastHitArray = Physics.RaycastAll (ray, float.MaxValue, instance.mousePlaneLayerMask);
+        System.Array.Sort(raycastHitArray, (RaycastHit raycastHitA, RaycastHit raycastHitB) =>
+        {
+            return Mathf.RoundToInt(raycastHitA.distance - raycastHitB.distance);
+        });
+
+        foreach(RaycastHit raycastHit in raycastHitArray)
+        {
+            if(raycastHit.transform.TryGetComponent(out Renderer renderer))
+            {
+                if(renderer.enabled)
+                {
+                    return raycastHit.point;
+                }
+            }
+        }
+
+        return Vector3.zero;
+    }
+
 }
