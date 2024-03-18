@@ -16,13 +16,30 @@ public class MoveAction : BaseAction
     }
 
 
-    [SerializeField] private int maxMoveDistance = 4;
+    private int maxMoveDistance;
 
     private List<Vector3> positionList;
     private int currentPositionIndex;
     private bool isChangingFloors;
     private float differentFloorsTeleportTimer;
     private float differentFloorsTeleportTimerMax = 0.5f;
+
+    
+    private void Start()
+    {   
+        if (isRogue)
+        {
+            maxMoveDistance = 6;
+        }
+        else if (!isKnight)
+        {
+            maxMoveDistance = 4;
+        }
+        else
+        {
+            maxMoveDistance = 2;
+        }
+    }
 
     private void Update()
     {

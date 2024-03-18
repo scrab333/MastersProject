@@ -23,7 +23,18 @@ public class GrenadeAction : BaseAction
 
     public override string GetActionName()
     {
-        return "Grenade";
+        if (isWizard)
+        {
+            return "Grenade";
+        }
+        else if (!isWizard)
+        {
+            return null;
+        }
+        else
+        {
+            return "What";
+        }
     }
 
     public override EnemyAIAction GetEnemyAIAction(GridPosition gridPosition)

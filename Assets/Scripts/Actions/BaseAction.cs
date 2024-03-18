@@ -9,6 +9,11 @@ public abstract class BaseAction : MonoBehaviour
     public static event EventHandler OnAnyActionStarted;
     public static event EventHandler OnAnyActionCompleted;
 
+    [SerializeField] public bool isRogue;
+    [SerializeField] public bool isKnight;
+    [SerializeField] public bool isWizard;
+    [SerializeField] public bool isBeeKeeper;
+
     protected Unit unit;
     protected bool isActive;
     protected Action onActionComplete;

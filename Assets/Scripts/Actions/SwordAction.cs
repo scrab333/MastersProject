@@ -70,7 +70,18 @@ public class SwordAction : BaseAction
 
     public override string GetActionName()
     {
-        return "Sword";
+        if (isRogue || isKnight)
+        {
+            return "Sword";
+        }
+        else if (!isRogue || !isKnight)
+        {
+            return null;
+        }
+        else
+        {
+            return "What?"; //Putting this here cos otherwise it complains
+        }
     }
 
     public override EnemyAIAction GetEnemyAIAction(GridPosition gridPosition)

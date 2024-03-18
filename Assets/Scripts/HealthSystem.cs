@@ -9,11 +9,25 @@ public class HealthSystem : MonoBehaviour
     public event EventHandler OnDead;
     public event EventHandler OnDamage;
 
-    [SerializeField] private int health = 10;
+    private int health = 10;
     private int healthMax;
 
     private void Awake()
     {
+        /*
+        if (isKnight)
+        {
+            health = 12;
+        }
+        else if (isRogue || isWizard)
+        {
+            health = 8;
+        }
+        else
+        {
+            health = 10;
+        }
+        */
         healthMax = health;
     }
 

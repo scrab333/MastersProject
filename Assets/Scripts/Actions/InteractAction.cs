@@ -1,4 +1,5 @@
 using System;
+using System.CodeDom;
 using System.Collections;
 using System.Collections.Generic;
 using System.Configuration;
@@ -6,7 +7,6 @@ using UnityEngine;
 
 public class InteractAction : BaseAction
 {
-
     private int maxInteractDistance = 1;
 
     private void Update()

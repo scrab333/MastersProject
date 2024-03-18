@@ -96,7 +96,18 @@ public class ShootAction : BaseAction
 
     public override string GetActionName()
     {
-        return "Shoot";
+        if (isRogue || isWizard)
+        {
+            return "Shoot";
+        }
+        else if (!isRogue || !isWizard)
+        {
+            return null;
+        }
+        else
+        {
+            return "What?";
+        }
     }
 
     public override List<GridPosition> GetValidActionGridPositionList()
