@@ -7,6 +7,7 @@ using UnityEngine;
 public class ShootAction : BaseAction
 {
 
+
     public event EventHandler<OnShootEventArgs> OnShoot;
     public static event EventHandler<OnShootEventArgs> OnAnyShoot;
 
@@ -205,11 +206,23 @@ public class ShootAction : BaseAction
     {
         Unit targetUnit = LevelGrid.Instance.GetUnitAtGridPosition(gridPosition);
 
-        return new EnemyAIAction
+        if (isCloseCombat == true)
         {
-            gridPosition = gridPosition,
-            actionValue = 100 + Mathf.RoundToInt((1 - targetUnit.GetHealthNormalized()) * 100.0f),
-        };
+            return new EnemyAIAction
+            {
+                gridPosition = gridPosition,
+                actionValue = 0,
+            };
+        }
+        else
+        {
+            return new EnemyAIAction
+            {
+                gridPosition = gridPosition,
+                actionValue = 100 + Mathf.RoundToInt((1 - targetUnit.GetHealthNormalized()) * 100.0f),
+            };
+        }
+
     }
 
     public int GetTargetCountAtPosition(GridPosition gridPosition)

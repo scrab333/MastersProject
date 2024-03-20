@@ -198,10 +198,22 @@ public class MoveAction : BaseAction
     {
         int targetCountAtGridPosition = unit.GetAction<ShootAction>().GetTargetCountAtPosition(gridPosition);
 
-        return new EnemyAIAction
+        if (isCloseCombat == true)
         {
-            gridPosition = gridPosition,
-            actionValue = targetCountAtGridPosition * 10,
-        };
+            return new EnemyAIAction
+            {
+                gridPosition = gridPosition,
+                actionValue = targetCountAtGridPosition * 100,
+            };
+        }
+        else
+        {
+            return new EnemyAIAction
+            {
+                gridPosition = gridPosition,
+                actionValue = targetCountAtGridPosition * 10,
+            };
+        }
+
     }
 }

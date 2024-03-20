@@ -14,6 +14,13 @@ public abstract class BaseAction : MonoBehaviour
     [SerializeField] public bool isWizard;
     [SerializeField] public bool isBeeKeeper;
 
+    //----------------------------------------------------
+    [Header("Artur works on enemies")]
+    [SerializeField] public bool isCloseCombat;
+    [SerializeField] public bool isRangeCombat;
+    [SerializeField] public bool isSmart;
+
+
     protected Unit unit;
     protected bool isActive;
     protected Action onActionComplete;
@@ -75,8 +82,11 @@ public abstract class BaseAction : MonoBehaviour
 
         if (enemyAIActionList.Count > 0)
         {
+
             enemyAIActionList.Sort((EnemyAIAction a, EnemyAIAction b) => b.actionValue - a.actionValue);
+            //Debug.Log("Kutasa");
             return enemyAIActionList[0];
+
         }
         else
             //No possible enemy actions
