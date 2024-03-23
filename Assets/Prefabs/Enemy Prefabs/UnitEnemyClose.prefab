@@ -8,16 +8,36 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 130008556380372032, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
+      propertyPath: isCloseCombat
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144180946497174104, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
+      propertyPath: isCloseCombat
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3144180946497174104, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
       propertyPath: obstaclesLayerMask.m_Bits
       value: 256
       objectReference: {fileID: 0}
+    - target: {fileID: 3380063642669524520, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
+      propertyPath: isCloseCombat
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4265547617743291283, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
       propertyPath: m_Name
-      value: UnitEnemy
+      value: UnitEnemyClose
       objectReference: {fileID: 0}
     - target: {fileID: 4374863315109837279, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
       propertyPath: isEnemy
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106129938866326681, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
+      propertyPath: isCloseCombat
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5163691872667551723, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
+      propertyPath: isCloseCombat
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5439654571272722601, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
@@ -59,6 +79,10 @@ PrefabInstance:
     - target: {fileID: 5439654571272722601, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584720310871574143, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
+      propertyPath: isCloseCombat
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7755876393670657840, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
       propertyPath: m_Materials.Array.data[0]
