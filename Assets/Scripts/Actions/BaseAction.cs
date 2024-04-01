@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using System;
 using UnityEngine;
+using System.CodeDom;
 
 public abstract class BaseAction : MonoBehaviour
 {
 
     public static event EventHandler OnAnyActionStarted;
     public static event EventHandler OnAnyActionCompleted;
+
+    public DiceRoll diceRoll;
 
     [SerializeField] public bool isRogue;
     [SerializeField] public bool isKnight;

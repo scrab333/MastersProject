@@ -76,10 +76,11 @@ public class Unit : MonoBehaviour
                 level += 1;
                 unitEXP += 1;
                 break;
-            case 1500:
+            case >=1500:
                 unitEXP = 1000;
                 break;
         }
+
         //if (Input.GetMouseButtonDown(0))
         //{
         //    Move(MouseWorld.GetPosition()); //Moves to mouse position 
