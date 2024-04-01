@@ -72,13 +72,13 @@ public class Pathfinding : MonoBehaviour
                     if (Physics.Raycast(worldPosition + Vector3.up * raycastOffsetDistance, Vector3.down, raycastOffsetDistance * 2, floorLayerMask))
                     {
                         GetNode(x, z, floor).SetIsWalkable(true);
-                        Debug.Log("there is a blockage");
+                        //Debug.Log("there is a blockage");
                     }
 
                     if (Physics.Raycast(worldPosition + Vector3.down * raycastOffsetDistance, Vector3.up, raycastOffsetDistance * 2, obstaclesLayerMask))
                     {
                         GetNode(x, z, floor).SetIsWalkable(false);
-                        Debug.Log("there is a blockage");
+                        //Debug.Log("there is a blockage");
                     }
                 }
             }
