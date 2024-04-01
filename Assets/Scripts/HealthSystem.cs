@@ -12,14 +12,15 @@ public class HealthSystem : MonoBehaviour
     private int health = 10;
     private int healthMax;
 
+    public BaseAction baseAction;
+
     private void Awake()
     {
-        /*
-        if (isKnight)
+        if (baseAction.isKnight)
         {
             health = 12;
         }
-        else if (isRogue || isWizard)
+        else if (baseAction.isRogue || baseAction.isWizard)
         {
             health = 8;
         }
@@ -27,8 +28,8 @@ public class HealthSystem : MonoBehaviour
         {
             health = 10;
         }
-        */
         healthMax = health;
+        Debug.Log(health);
     }
 
 
@@ -47,8 +48,6 @@ public class HealthSystem : MonoBehaviour
         {
             Die();
         }
-
-        Debug.Log(health);
     }
 
     private void Die()

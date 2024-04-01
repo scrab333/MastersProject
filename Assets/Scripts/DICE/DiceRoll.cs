@@ -11,12 +11,12 @@ public class DiceRoll : MonoBehaviour
 
 
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
         ThrowDice();
     }
 
-    private void Update()
+    public void Update()
     {
         if(HasItStooped() == true)
         {
@@ -24,7 +24,7 @@ public class DiceRoll : MonoBehaviour
         }
     }
 
-    private int FindFaceResult()
+    public int FindFaceResult()
     {
         int maxIndex = 0;
         for (int i = 0; i < heightDetector.Count; i++)
@@ -49,7 +49,7 @@ public class DiceRoll : MonoBehaviour
     }
 
 
-    void ThrowDice()
+    public void ThrowDice()
     {
         int x = Random.Range(0, 360);
         int y = Random.Range(0, 360);

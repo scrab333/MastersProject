@@ -15,7 +15,11 @@ public class Unit : MonoBehaviour
     public static event EventHandler OnAnyUnitSpawned;
     public static event EventHandler OnAnyUnitDead;
 
-    [SerializeField] private bool isEnemy;
+    [SerializeField] public bool isEnemy;
+
+    public int level = 1;
+
+    public int unitEXP = 0;
 
     private GridPosition gridPosition;
     private HealthSystem healthSystem;
@@ -53,6 +57,30 @@ public class Unit : MonoBehaviour
 
             LevelGrid.Instance.UnitMoveGridPosition(this, oldGridPosition, newGridPosition);
         }
+
+        switch (unitEXP)
+        {
+            case 100:
+                level += 1;
+                unitEXP += 1;
+                break;
+            case 300:
+                level += 1;
+                unitEXP += 1;
+                break;
+            case 600:
+                level += 1;
+                unitEXP += 1;
+                break;
+            case 1000:
+                level += 1;
+                unitEXP += 1;
+                break;
+            case >=1500:
+                unitEXP = 1000;
+                break;
+        }
+
         //if (Input.GetMouseButtonDown(0))
         //{
         //    Move(MouseWorld.GetPosition()); //Moves to mouse position 
