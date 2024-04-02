@@ -15,6 +15,11 @@ public class LevelSystem : MonoBehaviour
 
     public void LevelCheck()
     {
+        if (GameObject.FindWithTag("LevelUp"))
+        {
+            unitEXP += 50;
+        }
+
         switch (unitEXP)
         {
             case 100:
@@ -41,7 +46,7 @@ public class LevelSystem : MonoBehaviour
 
     public void LevelUp()
     {
-
+        //Make the player increase the exp, probs done with tag
     }
 
     public int GetLevel()
