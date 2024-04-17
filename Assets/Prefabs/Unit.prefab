@@ -449,6 +449,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5439654571272722601}
   - component: {fileID: 4374863315109837279}
+  - component: {fileID: -6202474393959829103}
   - component: {fileID: 2601342885660673501}
   - component: {fileID: 5163691872667551723}
   - component: {fileID: 5106129938866326681}
@@ -462,7 +463,7 @@ GameObject:
   - component: {fileID: 2529702962171958652}
   m_Layer: 7
   m_Name: Unit
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -498,6 +499,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEnemy: 0
+--- !u!114 &-6202474393959829103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4265547617743291283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bfd935ff6de834438ee42e8b41c009f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitEXP: 0
+  level: 1
 --- !u!65 &2601342885660673501
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -531,7 +546,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fca8893ff339534c9a4d42bd9513a0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxMoveDistance: 4
+  diceRoll: {fileID: 0}
+  levelSystem: {fileID: 0}
+  isRogue: 0
+  isKnight: 0
+  isWizard: 0
+  isBeeKeeper: 0
+  isCloseCombat: 0
+  isRangeCombat: 0
+  isSmart: 0
 --- !u!114 &5106129938866326681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -544,6 +567,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9083ae9ca6423f46a32ea3280f04c79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  diceRoll: {fileID: 0}
+  levelSystem: {fileID: 0}
+  isRogue: 0
+  isKnight: 0
+  isWizard: 0
+  isBeeKeeper: 0
+  isCloseCombat: 0
+  isRangeCombat: 0
+  isSmart: 0
 --- !u!114 &3144180946497174104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -556,6 +588,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7eaceaa3af3d9d840b899179bd2f2c38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  diceRoll: {fileID: 0}
+  levelSystem: {fileID: 0}
+  isRogue: 0
+  isKnight: 0
+  isWizard: 0
+  isBeeKeeper: 0
+  isCloseCombat: 0
+  isRangeCombat: 0
+  isSmart: 0
   obstaclesLayerMask:
     serializedVersion: 2
     m_Bits: 320
@@ -588,7 +629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f58cf14b4e74c44d8cb80ceb1c654bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  baseAction: {fileID: 0}
 --- !u!114 &8885215447158194501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -615,6 +656,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c25b9bc692b2c9f45bac71ebeeb78c65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  diceRoll: {fileID: 0}
+  levelSystem: {fileID: 0}
+  isRogue: 0
+  isKnight: 0
+  isWizard: 0
+  isBeeKeeper: 0
+  isCloseCombat: 0
+  isRangeCombat: 0
+  isSmart: 0
   grenadeProjectilePrefab: {fileID: 4241540752621966144, guid: b4cef2067ee46024c86f0a94316dcb94, type: 3}
 --- !u!114 &3380063642669524520
 MonoBehaviour:
@@ -628,6 +678,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f424558473641ec48a7e54e76975f25c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  diceRoll: {fileID: 0}
+  levelSystem: {fileID: 0}
+  isRogue: 0
+  isKnight: 0
+  isWizard: 0
+  isBeeKeeper: 0
+  isCloseCombat: 0
+  isRangeCombat: 0
+  isSmart: 0
 --- !u!114 &6584720310871574143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -640,6 +699,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b7e66cb4f110cf4da22483bd3be9f47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  diceRoll: {fileID: 0}
+  levelSystem: {fileID: 0}
+  isRogue: 0
+  isKnight: 0
+  isWizard: 0
+  isBeeKeeper: 0
+  isCloseCombat: 0
+  isRangeCombat: 0
+  isSmart: 0
 --- !u!114 &2529702962171958652
 MonoBehaviour:
   m_ObjectHideFlags: 0

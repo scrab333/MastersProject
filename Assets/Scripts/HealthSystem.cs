@@ -14,6 +14,8 @@ public class HealthSystem : MonoBehaviour
 
     public BaseAction baseAction;
 
+    public LevelSystem levelSystem;
+
     private void Awake()
     {
         if (baseAction.isKnight)
@@ -46,6 +48,7 @@ public class HealthSystem : MonoBehaviour
 
         if(health == 0)
         {
+            levelSystem.LevelUp();
             Die();
         }
     }

@@ -58,7 +58,7 @@ public class SwordAction : BaseAction
                 state = State.SwingingSwordAfterHit;
                 float afterHitStateTime = 0.5f;
                 stateTimer = afterHitStateTime;
-                targetUnit.Damage(diceRoll.FindFaceResult());
+                targetUnit.Damage(diceRoll.FindFaceResult() + levelSystem.GetLevel());
                 OnAnySwordHit?.Invoke(this, EventArgs.Empty);
                 break;
             case State.SwingingSwordAfterHit:

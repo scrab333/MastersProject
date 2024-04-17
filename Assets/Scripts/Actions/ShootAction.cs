@@ -93,7 +93,7 @@ public class ShootAction : BaseAction
         diceRoll.ThrowDice();
         OnAnyShoot?.Invoke(this, new OnShootEventArgs{targetUnit = targetUnit,shootingUnit = unit});
         OnShoot?.Invoke(this, new OnShootEventArgs { targetUnit = targetUnit, shootingUnit = unit});
-        targetUnit.Damage(diceRoll.FindFaceResult());//reminder to make damage randomized at some point
+        targetUnit.Damage(diceRoll.FindFaceResult() + levelSystem.GetLevel());//reminder to make damage randomized at some point
     }
 
     public override string GetActionName()
