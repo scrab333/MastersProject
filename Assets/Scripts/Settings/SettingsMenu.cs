@@ -15,6 +15,8 @@ public class SettingsMenu : MonoBehaviour
 
     public TextMeshProUGUI resolutionLabel;
 
+
+    public AudioMixer theMixer;
     public Slider mastSlider, musicSlider, sfxSlider;
     public TextMeshProUGUI mastLabel, musicLabel, sfxLabel;
 
@@ -48,6 +50,28 @@ public class SettingsMenu : MonoBehaviour
         {
             resolutionLabel.text = Screen.width.ToString() + "x" + Screen.height.ToString();
         }
+
+        if (PlayerPrefs.HasKey("MasterVol"))
+        {
+            theMixer.SetFloat("MasterVol", PlayerPrefs.GetFloat("MasterVol"));
+            mastSlider.value = PlayerPrefs.GetFloat("MasterVol");
+        }
+
+        if (PlayerPrefs.HasKey("MusicVol"))
+        {
+            theMixer.SetFloat("MusicVol", PlayerPrefs.GetFloat("MusicVol"));
+            musicSlider.value = PlayerPrefs.GetFloat("MusicVol");
+        }
+
+        if (PlayerPrefs.HasKey("SFXVol"))
+        {
+            theMixer.SetFloat("SFXVol", PlayerPrefs.GetFloat("SFXVol"));
+            sfxSlider.value = PlayerPrefs.GetFloat("SFXVol");
+        }
+
+        musicLabel.text = (musicSlider.value + 80).ToString();
+        mastLabel.text = (mastSlider.value + 80).ToString();
+        sfxLabel.text = (sfxSlider.value + 80).ToString();
 
     }
 
@@ -104,6 +128,29 @@ public class SettingsMenu : MonoBehaviour
 
 
     }
+
+    public void SetMasterVol()
+    {
+        mastLabel.text = (mastSlider.value + 80).ToString();
+        theMixer.SetFloat("Master", mastSlider.value);
+        PlayerPrefs.SetFloat("MasterVol", mastSlider.value);
+    }
+
+    public void SetMusicVol()
+    {
+        musicLabel.text = (musicSlider.value + 80).ToString();
+        theMixer.SetFloat("Music", musicSlider.value);
+        PlayerPrefs.SetFloat("MusicVol", musicSlider.value);
+
+    }
+    public void SetSFXVol()
+    {
+        sfxLabel.text = (sfxSlider.value + 80).ToString();
+        theMixer.SetFloat("SFX", sfxSlider.value);
+        PlayerPrefs.SetFloat("SFXVol", sfxSlider.value);
+
+    }
+
 
 }
 
