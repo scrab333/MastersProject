@@ -3440,6 +3440,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8573352955853316539, guid: a44e80d131f1b2341bdc9ad259f626b5, type: 3}
+      propertyPath: levelSystem
+      value: 
+      objectReference: {fileID: 7915290311115456817}
+    - target: {fileID: 8573352955853316539, guid: a44e80d131f1b2341bdc9ad259f626b5, type: 3}
       propertyPath: isCloseCombat
       value: 0
       objectReference: {fileID: 0}
@@ -6729,7 +6733,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.3006394, y: -0.000000016410379, z: 0.0000000051729154, w: 0.9537379}
+  m_LocalRotation: {x: 0.3006394, y: 0.000000016410379, z: -0.0000000051729154, w: 0.9537379}
   m_LocalPosition: {x: 0, y: 7, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -10116,7 +10120,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1400867066}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.3006394, y: -0.000000016410379, z: 0.0000000051729154, w: 0.9537379}
+  m_LocalRotation: {x: 0.3006394, y: 0.000000016410379, z: -0.0000000051729154, w: 0.9537379}
   m_LocalPosition: {x: 0, y: 7, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -16582,9 +16586,17 @@ PrefabInstance:
       propertyPath: levelSystem
       value: 
       objectReference: {fileID: 7915290311115456817}
+    - target: {fileID: 130008556380372032, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
+      propertyPath: isWizard
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144180946497174104, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
+      propertyPath: shoot
+      value: 
+      objectReference: {fileID: 8300000, guid: a60e4e77c0db3d848bda8472e7a7436a, type: 3}
     - target: {fileID: 3144180946497174104, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
       propertyPath: isRogue
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3144180946497174104, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
       propertyPath: diceRoll
@@ -16595,9 +16607,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3144180946497174104, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
+      propertyPath: isWizard
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144180946497174104, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
+      propertyPath: rogueShoot
+      value: 
+      objectReference: {fileID: 8300000, guid: bb5f0bbc70ccbfe4fa9a828a6f1ed615, type: 3}
+    - target: {fileID: 3144180946497174104, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
       propertyPath: levelSystem
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3144180946497174104, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
+      propertyPath: wizardShoot
+      value: 
+      objectReference: {fileID: 8300000, guid: a60e4e77c0db3d848bda8472e7a7436a, type: 3}
     - target: {fileID: 3144180946497174104, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
       propertyPath: obstaclesLayerMask.m_Bits
       value: 256

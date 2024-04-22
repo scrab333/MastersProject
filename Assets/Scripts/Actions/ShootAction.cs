@@ -24,6 +24,10 @@ public class ShootAction : BaseAction
         Cooloff,
     }
 
+    [SerializeField] private AudioClip rogueShoot;
+    [SerializeField] private AudioClip wizardShoot;
+    AudioSource audioSource;
+     
     private State state;
     private int maxShootDistance = 7;
     private float stateTimer;
@@ -90,17 +94,31 @@ public class ShootAction : BaseAction
 
     private void Shoot()
     {
+        audioSource = GetComponent<AudioSource>();
+        if (isRogue)
+        {
+            audioSource.clip = rogueShoot;
+        }
+        else if (isWizard)
+        {
+            audioSource.clip = wizardShoot;
+        }
+        audioSource.Play();    
         diceRoll.ThrowDice();
         OnAnyShoot?.Invoke(this, new OnShootEventArgs{targetUnit = targetUnit,shootingUnit = unit});
         OnShoot?.Invoke(this, new OnShootEventArgs { targetUnit = targetUnit, shootingUnit = unit});
-        targetUnit.Damage(diceRoll.FindFaceResult() + levelSystem.GetLevel());//reminder to make damage randomized at some point
+        targetUnit.Damage(diceRoll.FindFaceResult() + 3);//reminder to make damage randomized at some point
     }
 
     public override string GetActionName()
     {
-        if (isRogue || isWizard)
+        if (isRogue)
         {
-            return "Shoot";
+            return "Bow";
+        }
+        else if (isWizard)
+        {
+            return "Firebolt";
         }
         else if (!isRogue || !isWizard)
         {
