@@ -669,6 +669,8 @@ MonoBehaviour:
   isCloseCombat: 0
   isRangeCombat: 0
   isSmart: 0
+  beekeeperHeal: {fileID: 8300000, guid: c24482a5a7c19484494fb2033d48f150, type: 3}
+  wizardFireball: {fileID: 8300000, guid: 0cb386cbed3f7364e8ad6767a07a875b, type: 3}
   grenadeProjectilePrefab: {fileID: 4241540752621966144, guid: b4cef2067ee46024c86f0a94316dcb94, type: 3}
 --- !u!114 &3380063642669524520
 MonoBehaviour:

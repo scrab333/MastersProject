@@ -669,6 +669,8 @@ MonoBehaviour:
   isCloseCombat: 0
   isRangeCombat: 0
   isSmart: 0
+  beekeeperHeal: {fileID: 0}
+  wizardFireball: {fileID: 0}
   grenadeProjectilePrefab: {fileID: 4241540752621966144, guid: b4cef2067ee46024c86f0a94316dcb94, type: 3}
 --- !u!114 &3380063642669524520
 MonoBehaviour:
@@ -691,6 +693,8 @@ MonoBehaviour:
   isCloseCombat: 0
   isRangeCombat: 0
   isSmart: 0
+  rogueStab: {fileID: 8300000, guid: 12ea785d077781247a4a7af0c3d18d5e, type: 3}
+  knightStab: {fileID: 8300000, guid: 8ccdd56e302fd284ca409154846bdca4, type: 3}
 --- !u!114 &6584720310871574143
 MonoBehaviour:
   m_ObjectHideFlags: 0

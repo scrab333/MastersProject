@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class GrenadeAction : BaseAction
 {
+    [SerializeField] private AudioClip beekeeperHeal;
+    [SerializeField] private AudioClip wizardFireball;
+    AudioSource audioSource;
 
 
     [SerializeField] private Transform grenadeProjectilePrefab;
@@ -26,6 +29,10 @@ public class GrenadeAction : BaseAction
         if (isWizard)
         {
             return "Grenade";
+        }
+        else if (isBeeKeeper)
+        {
+            return "Healande";
         }
         else if (!isWizard)
         {
@@ -79,6 +86,16 @@ public class GrenadeAction : BaseAction
 
     public override void TakeAction(GridPosition gridPosition, Action onActionComplete)
     {
+        audioSource = GetComponent<AudioSource>();
+        if (isBeeKeeper)
+        {
+            audioSource.clip = beekeeperHeal;
+        }
+        else if (isWizard)
+        {
+            audioSource.clip = wizardFireball;
+        }
+        audioSource.Play();
         Transform grenadeProjectileTransform = Instantiate(grenadeProjectilePrefab, unit.GetWorldPosition(), Quaternion.identity);
         GrenadeProjectile grenadeProjectile = grenadeProjectileTransform.GetComponent<GrenadeProjectile>();
         grenadeProjectile.Setup(gridPosition, OnGrenadeBehaviourComplete);

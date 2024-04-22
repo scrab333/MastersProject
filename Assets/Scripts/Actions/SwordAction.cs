@@ -23,6 +23,10 @@ public class SwordAction : BaseAction
     private float stateTimer;
     private Unit targetUnit;
 
+    [SerializeField] private AudioClip rogueStab;
+    [SerializeField] private AudioClip knightStab;
+    AudioSource audioSource;
+
     private void Update()
     {
         if (!isActive)
@@ -54,11 +58,21 @@ public class SwordAction : BaseAction
         switch (state)
         {
             case State.SwingingSwordBeforeHit:
+                audioSource = GetComponent<AudioSource>();
+                if (isRogue)
+                {
+                    audioSource.clip = rogueStab;
+                }
+                else if (isKnight)
+                {
+                    audioSource.clip = knightStab;
+                }
+                audioSource.Play();
                 diceRoll.ThrowDice();
                 state = State.SwingingSwordAfterHit;
                 float afterHitStateTime = 0.5f;
                 stateTimer = afterHitStateTime;
-                targetUnit.Damage(diceRoll.FindFaceResult() + levelSystem.GetLevel());
+                targetUnit.Damage(diceRoll.FindFaceResult() + 5);
                 OnAnySwordHit?.Invoke(this, EventArgs.Empty);
                 break;
             case State.SwingingSwordAfterHit:
@@ -71,9 +85,13 @@ public class SwordAction : BaseAction
 
     public override string GetActionName()
     {
-        if (isRogue || isKnight)
+        if (isKnight)
         {
             return "Sword";
+        }
+        else if (isRogue)
+        {
+            return "Knife";
         }
         else if (!isRogue || !isKnight)
         {
