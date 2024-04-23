@@ -62,12 +62,15 @@ public class SwordAction : BaseAction
                 if (isRogue)
                 {
                     audioSource.clip = rogueStab;
+                    audioSource.Play();
+
                 }
                 else if (isKnight)
                 {
                     audioSource.clip = knightStab;
+                    audioSource.Play();
+
                 }
-                audioSource.Play();
                 diceRoll.ThrowDice();
                 state = State.SwingingSwordAfterHit;
                 float afterHitStateTime = 0.5f;

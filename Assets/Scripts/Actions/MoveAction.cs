@@ -82,8 +82,9 @@ public class MoveAction : BaseAction
 
             float moveSpeed = 4f;
             transform.position += moveDirection * moveSpeed * Time.deltaTime; //Move unit, framerate independant
-
-            animator.SetFloat("Speed", Math.Abs(moveSpeed));
+            
+            if(animator != null)
+                animator.SetFloat("Speed", Math.Abs(moveSpeed));
         }
 
         float stoppingDistance = .1f;
@@ -95,7 +96,8 @@ public class MoveAction : BaseAction
                 OnStopMoving?.Invoke(this, EventArgs.Empty);
                 ActionComplete();
                 float moveSpeed = 0f;
-                animator.SetFloat("Speed", Math.Abs(moveSpeed));
+                if (animator != null)
+                    animator.SetFloat("Speed", Math.Abs(moveSpeed));
             }
             else
             {

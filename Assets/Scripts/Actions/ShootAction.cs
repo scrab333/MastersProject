@@ -99,12 +99,21 @@ public class ShootAction : BaseAction
         {
             audioSource.clip = rogueShoot;
             audioSource.Play();
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
         }
         else if (isWizard)
         {
             audioSource.clip = wizardShoot;
             audioSource.Play();
+<<<<<<< Updated upstream
         }   
+=======
+
+        }
+>>>>>>> Stashed changes
         diceRoll.ThrowDice();
         OnAnyShoot?.Invoke(this, new OnShootEventArgs{targetUnit = targetUnit,shootingUnit = unit});
         OnShoot?.Invoke(this, new OnShootEventArgs { targetUnit = targetUnit, shootingUnit = unit});
