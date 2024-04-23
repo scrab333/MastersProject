@@ -98,12 +98,13 @@ public class ShootAction : BaseAction
         if (isRogue)
         {
             audioSource.clip = rogueShoot;
+            audioSource.Play();
         }
         else if (isWizard)
         {
             audioSource.clip = wizardShoot;
-        }
-        audioSource.Play();    
+            audioSource.Play();
+        }   
         diceRoll.ThrowDice();
         OnAnyShoot?.Invoke(this, new OnShootEventArgs{targetUnit = targetUnit,shootingUnit = unit});
         OnShoot?.Invoke(this, new OnShootEventArgs { targetUnit = targetUnit, shootingUnit = unit});

@@ -11,6 +11,7 @@ public class GrenadeAction : BaseAction
 
 
     [SerializeField] private Transform grenadeProjectilePrefab;
+    [SerializeField] private Transform healProjectilePrefab;
 
 
     private int maxThrowDistance = 7;
@@ -90,15 +91,19 @@ public class GrenadeAction : BaseAction
         if (isBeeKeeper)
         {
             audioSource.clip = beekeeperHeal;
+            Transform healProjectileTransform = Instantiate(healProjectilePrefab, unit.GetWorldPosition(), Quaternion.identity);
+            GrenadeProjectile healProjectile = healProjectileTransform.GetComponent<GrenadeProjectile>();
+            healProjectile.Setup(gridPosition, OnGrenadeBehaviourComplete);
+            audioSource.Play();
         }
         else if (isWizard)
         {
             audioSource.clip = wizardFireball;
+            Transform grenadeProjectileTransform = Instantiate(grenadeProjectilePrefab, unit.GetWorldPosition(), Quaternion.identity);
+            GrenadeProjectile grenadeProjectile = grenadeProjectileTransform.GetComponent<GrenadeProjectile>();
+            grenadeProjectile.Setup(gridPosition, OnGrenadeBehaviourComplete);
+            audioSource.Play();
         }
-        audioSource.Play();
-        Transform grenadeProjectileTransform = Instantiate(grenadeProjectilePrefab, unit.GetWorldPosition(), Quaternion.identity);
-        GrenadeProjectile grenadeProjectile = grenadeProjectileTransform.GetComponent<GrenadeProjectile>();
-        grenadeProjectile.Setup(gridPosition, OnGrenadeBehaviourComplete);
 
         ActionStart(onActionComplete);
     }

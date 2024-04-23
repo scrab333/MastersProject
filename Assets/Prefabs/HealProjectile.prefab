@@ -261,7 +261,7 @@ GameObject:
   - component: {fileID: 4241540752621966144}
   - component: {fileID: 7133332294219102551}
   m_Layer: 0
-  m_Name: GrenadeProjectile
+  m_Name: HealProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -332,5 +332,5 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   diceRoll: {fileID: 5627528106230940275, guid: 5a5bac94bc65b244693423a3f234dacf, type: 3}
-  isWizard: 1
-  isBeeKeeper: 0
+  isWizard: 0
+  isBeeKeeper: 1

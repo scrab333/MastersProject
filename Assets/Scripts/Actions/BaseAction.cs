@@ -12,8 +12,6 @@ public abstract class BaseAction : MonoBehaviour
 
     public DiceRoll diceRoll;
 
-    public LevelSystem levelSystem;
-
     [SerializeField] public bool isRogue;
     [SerializeField] public bool isKnight;
     [SerializeField] public bool isWizard;

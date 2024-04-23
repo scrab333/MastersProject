@@ -18,6 +18,11 @@ public class GrenadeProjectile : MonoBehaviour
     private float totalDistance;
     private Vector3 positionXZ;
 
+    public DiceRoll diceRoll;
+
+    [SerializeField] public bool isWizard;
+    [SerializeField] public bool isBeeKeeper;
+
     private void Update()
     {
         Vector3 moveDir = (targetPosition - positionXZ).normalized;
@@ -42,7 +47,15 @@ public class GrenadeProjectile : MonoBehaviour
             {
                 if (collider.TryGetComponent<Unit>(out Unit targetUnit))
                 {
-                    targetUnit.Damage(30);
+                    diceRoll.ThrowDice();
+                    if (isWizard)
+                    {
+                        targetUnit.Damage(8 + diceRoll.FindFaceResult());
+                    }
+                    else if (isBeeKeeper)
+                    {
+                        targetUnit.Damage(-8 - diceRoll.FindFaceResult());
+                    }
                 }
                 if (collider.TryGetComponent<DestructibleCrate>(out DestructibleCrate destructibleCrate))
                 {

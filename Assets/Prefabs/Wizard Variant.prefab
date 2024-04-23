@@ -126,7 +126,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5163691872667551723, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
       propertyPath: isWizard
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5163691872667551723, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
       propertyPath: isBeeKeeper
