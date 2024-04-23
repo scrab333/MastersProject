@@ -23,6 +23,7 @@ public class MoveAction : BaseAction
     private bool isChangingFloors;
     private float differentFloorsTeleportTimer;
     private float differentFloorsTeleportTimerMax = 0.5f;
+    private Animator animator;
 
     
     private void Start()
@@ -39,10 +40,13 @@ public class MoveAction : BaseAction
         {
             maxMoveDistance = 2;
         }
+
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
     {
+
         if (!isActive)
         {
             return;
@@ -79,6 +83,7 @@ public class MoveAction : BaseAction
             float moveSpeed = 4f;
             transform.position += moveDirection * moveSpeed * Time.deltaTime; //Move unit, framerate independant
 
+            animator.SetFloat("Speed", Math.Abs(moveSpeed));
         }
 
         float stoppingDistance = .1f;
@@ -89,6 +94,8 @@ public class MoveAction : BaseAction
             {
                 OnStopMoving?.Invoke(this, EventArgs.Empty);
                 ActionComplete();
+                float moveSpeed = 0f;
+                animator.SetFloat("Speed", Math.Abs(moveSpeed));
             }
             else
             {

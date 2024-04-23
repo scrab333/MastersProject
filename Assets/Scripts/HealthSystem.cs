@@ -11,6 +11,7 @@ public class HealthSystem : MonoBehaviour
 
     private int health = 10;
     private int healthMax;
+    //private Animator animator;
 
     public BaseAction baseAction;
 
@@ -32,6 +33,8 @@ public class HealthSystem : MonoBehaviour
         }
         healthMax = health;
         Debug.Log(health);
+
+        //animator = GetComponent<animator>();
     }
 
 
@@ -50,6 +53,7 @@ public class HealthSystem : MonoBehaviour
         {
             levelSystem.LevelUp();
             Die();
+            // bool Death = true
         }
     }
 
