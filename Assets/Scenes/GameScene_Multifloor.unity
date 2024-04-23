@@ -3511,11 +3511,7 @@ PrefabInstance:
     - target: {fileID: 8573352955853316539, guid: a44e80d131f1b2341bdc9ad259f626b5, type: 3}
       propertyPath: diceRoll
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 1595803867}
-=======
       objectReference: {fileID: 1879658625}
->>>>>>> Stashed changes
     - target: {fileID: 8573352955853316539, guid: a44e80d131f1b2341bdc9ad259f626b5, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -15327,11 +15323,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5439654571272722601, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
       propertyPath: m_LocalPosition.z
-<<<<<<< Updated upstream
-      value: 11.82
-=======
       value: 7.2726727
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 5439654571272722601, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
       propertyPath: m_LocalRotation.w
@@ -16805,8 +16797,4 @@ SceneRoots:
   - {fileID: 215882779}
   - {fileID: 473942752}
   - {fileID: 201146582}
-<<<<<<< Updated upstream
-  - {fileID: 330195083}
-=======
   - {fileID: 1619919533}
->>>>>>> Stashed changes
