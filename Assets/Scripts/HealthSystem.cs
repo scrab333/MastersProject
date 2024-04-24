@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
+
+
 public class HealthSystem : MonoBehaviour
 {
 
@@ -13,12 +15,17 @@ public class HealthSystem : MonoBehaviour
 
     private int health = 10;
     private int healthMax;
-    //private Animator animator;
+    private Animator animator;
 
     public BaseAction baseAction;
 
     public LevelSystem levelSystem;
 
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
+    
     private void Awake()
     {
         if (baseAction.isKnight)
@@ -36,7 +43,7 @@ public class HealthSystem : MonoBehaviour
         healthMax = health;
         Debug.Log(health);
 
-        //animator = GetComponent<animator>();
+        
     }
 
 
@@ -55,7 +62,8 @@ public class HealthSystem : MonoBehaviour
         {
             levelSystem.LevelUp();
             Die();
-            // bool Death = true
+            animator.SetBool("Death", true);
+
         }
     }
 

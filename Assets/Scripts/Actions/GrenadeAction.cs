@@ -16,6 +16,13 @@ public class GrenadeAction : BaseAction
 
     private int maxThrowDistance = 7;
 
+    private Animator animator;
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+        Invoke("Update", 1);
+    }
+
     private void Update()
     {
         if (!isActive)
@@ -98,11 +105,14 @@ public class GrenadeAction : BaseAction
         }
         else if (isWizard)
         {
+
             audioSource.clip = wizardFireball;
             Transform grenadeProjectileTransform = Instantiate(grenadeProjectilePrefab, unit.GetWorldPosition(), Quaternion.identity);
             GrenadeProjectile grenadeProjectile = grenadeProjectileTransform.GetComponent<GrenadeProjectile>();
             grenadeProjectile.Setup(gridPosition, OnGrenadeBehaviourComplete);
             audioSource.Play();
+            animator.SetBool("Attack", true);
+
         }
 
         ActionStart(onActionComplete);
@@ -111,6 +121,7 @@ public class GrenadeAction : BaseAction
     private void OnGrenadeBehaviourComplete()
     {
         ActionComplete();
+        animator.SetBool("Attack", false);
     }
 
 }
