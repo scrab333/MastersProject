@@ -16,6 +16,8 @@ public class MoveAction : BaseAction
     }
 
 
+    AudioSource audioSource;
+    [SerializeField] private AudioClip walking;
     private int maxMoveDistance;
 
     private List<Vector3> positionList;
@@ -46,6 +48,7 @@ public class MoveAction : BaseAction
 
     private void Update()
     {
+        audioSource = GetComponent<AudioSource>();
 
         if (!isActive)
         {
@@ -104,6 +107,10 @@ public class MoveAction : BaseAction
                 targetPosition = positionList[currentPositionIndex]; ;
                 GridPosition targetGridPosition = LevelGrid.Instance.GetGridPosition(targetPosition);
                 GridPosition unitGridPosition = LevelGrid.Instance.GetGridPosition(transform.position);
+
+                audioSource.clip = walking;
+                audioSource.pitch = (UnityEngine.Random.Range(0.8f, 1.0f));
+                audioSource.Play();
 
                 if (targetGridPosition.floor != unitGridPosition.floor)
                 {

@@ -548,7 +548,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   diceRoll: {fileID: 0}
-  levelSystem: {fileID: 0}
   isRogue: 0
   isKnight: 0
   isWizard: 0
@@ -556,6 +555,7 @@ MonoBehaviour:
   isCloseCombat: 0
   isRangeCombat: 0
   isSmart: 0
+  walking: {fileID: 8300000, guid: 2d0971c1965903d47bcfc6ddde4f1079, type: 3}
 --- !u!114 &5106129938866326681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -569,7 +569,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   diceRoll: {fileID: 0}
-  levelSystem: {fileID: 0}
   isRogue: 0
   isKnight: 0
   isWizard: 0
@@ -590,7 +589,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   diceRoll: {fileID: 0}
-  levelSystem: {fileID: 0}
   isRogue: 0
   isKnight: 0
   isWizard: 0
@@ -632,6 +630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f58cf14b4e74c44d8cb80ceb1c654bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  winLoseCondition: {fileID: 0}
   baseAction: {fileID: 0}
   levelSystem: {fileID: 0}
 --- !u!114 &8885215447158194501
@@ -661,7 +660,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   diceRoll: {fileID: 0}
-  levelSystem: {fileID: 0}
   isRogue: 0
   isKnight: 0
   isWizard: 0
@@ -672,6 +670,7 @@ MonoBehaviour:
   beekeeperHeal: {fileID: 8300000, guid: c24482a5a7c19484494fb2033d48f150, type: 3}
   wizardFireball: {fileID: 8300000, guid: 0cb386cbed3f7364e8ad6767a07a875b, type: 3}
   grenadeProjectilePrefab: {fileID: 4241540752621966144, guid: b4cef2067ee46024c86f0a94316dcb94, type: 3}
+  healProjectilePrefab: {fileID: 0}
 --- !u!114 &3380063642669524520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -685,7 +684,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   diceRoll: {fileID: 0}
-  levelSystem: {fileID: 0}
   isRogue: 0
   isKnight: 0
   isWizard: 0
@@ -693,6 +691,8 @@ MonoBehaviour:
   isCloseCombat: 0
   isRangeCombat: 0
   isSmart: 0
+  rogueStab: {fileID: 0}
+  knightStab: {fileID: 0}
 --- !u!114 &6584720310871574143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -706,7 +706,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   diceRoll: {fileID: 0}
-  levelSystem: {fileID: 0}
   isRogue: 0
   isKnight: 0
   isWizard: 0
