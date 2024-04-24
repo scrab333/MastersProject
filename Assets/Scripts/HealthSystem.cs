@@ -8,6 +8,8 @@ public class HealthSystem : MonoBehaviour
 
     public event EventHandler OnDead;
     public event EventHandler OnDamage;
+    public WinLoseCondition winLoseCondition;
+
 
     private int health = 10;
     private int healthMax;
@@ -60,6 +62,7 @@ public class HealthSystem : MonoBehaviour
     private void Die()
     {
         OnDead?.Invoke(this, EventArgs.Empty);
+        winLoseCondition.RemoveCharacter(gameObject);
     }
 
     public float GetHealthNormalized()
