@@ -1853,6 +1853,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2506987392294172371, guid: aaf204a7006499e45859afa5aafac365, type: 3}
+      propertyPath: diceRoll
+      value: 
+      objectReference: {fileID: 1874176849}
     - target: {fileID: 3967876660498158440, guid: aaf204a7006499e45859afa5aafac365, type: 3}
       propertyPath: m_Name
       value: Knight 1
@@ -28070,7 +28074,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3535202256984106101, guid: 78df7890c1384d740852de6f309dc50d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.68
+      value: 1.77
       objectReference: {fileID: 0}
     - target: {fileID: 3535202256984106101, guid: 78df7890c1384d740852de6f309dc50d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -28078,7 +28082,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3535202256984106101, guid: 78df7890c1384d740852de6f309dc50d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.12
+      value: 0.68
       objectReference: {fileID: 0}
     - target: {fileID: 3535202256984106101, guid: 78df7890c1384d740852de6f309dc50d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -28108,6 +28112,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4227567100871117998, guid: 78df7890c1384d740852de6f309dc50d, type: 3}
+      propertyPath: diceRoll
+      value: 
+      objectReference: {fileID: 1879658625}
+    - target: {fileID: 6602353311841707638, guid: 78df7890c1384d740852de6f309dc50d, type: 3}
+      propertyPath: diceRoll
+      value: 
+      objectReference: {fileID: 1879658625}
     - target: {fileID: 8876037756004390263, guid: 78df7890c1384d740852de6f309dc50d, type: 3}
       propertyPath: walking
       value: 
@@ -32877,6 +32889,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c030dfd1d466dc4fa7ae2e3d8e4096a, type: 3}
+--- !u!114 &1874176849 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7392620100725109080, guid: 5c030dfd1d466dc4fa7ae2e3d8e4096a, type: 3}
+  m_PrefabInstance: {fileID: 1872310524}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0b0b722fb41a0645aa85c20b29e69a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1879658625 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1944014872734030799, guid: e3d185b19e9d22e449ddbeb4232de1e7, type: 3}
@@ -39272,6 +39295,10 @@ PrefabInstance:
       propertyPath: diceRoll
       value: 
       objectReference: {fileID: 915973036}
+    - target: {fileID: 3667704840911441337, guid: a506fda567d1cca43b0ee54a33104368, type: 3}
+      propertyPath: healProjectilePrefab
+      value: 
+      objectReference: {fileID: 4241540752621966144, guid: e258624e32174d54ca4d15a57526c995, type: 3}
     - target: {fileID: 5616519964535705314, guid: a506fda567d1cca43b0ee54a33104368, type: 3}
       propertyPath: winLoseCondition
       value: 
@@ -39733,6 +39760,14 @@ PrefabInstance:
       propertyPath: diceRoll
       value: 
       objectReference: {fileID: 915973036}
+    - target: {fileID: 5075282490440198176, guid: 80636f3c9692b0a40bc1bfeb8bd818f8, type: 3}
+      propertyPath: isKnight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5075282490440198176, guid: 80636f3c9692b0a40bc1bfeb8bd818f8, type: 3}
+      propertyPath: isWizard
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6031770724273704347, guid: 80636f3c9692b0a40bc1bfeb8bd818f8, type: 3}
       propertyPath: m_Name
       value: Wizard

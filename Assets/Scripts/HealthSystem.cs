@@ -30,20 +30,17 @@ public class HealthSystem : MonoBehaviour
     {
         if (baseAction.isKnight)
         {
-            health = 12;
+            health = 30;
         }
         else if (baseAction.isRogue || baseAction.isWizard)
         {
-            health = 8;
+            health = 20;
         }
-        else
+        else if (baseAction.isBeeKeeper)
         {
-            health = 10;
+            health = 24;
         }
         healthMax = health;
-        Debug.Log(health);
-
-        
     }
 
 

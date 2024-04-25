@@ -25,6 +25,7 @@ public class SwordAction : BaseAction
 
     [SerializeField] private AudioClip rogueStab;
     [SerializeField] private AudioClip knightStab;
+    [SerializeField] private AudioClip beeKeeperSlap;
     AudioSource audioSource;
 
     private void Update()
@@ -59,23 +60,30 @@ public class SwordAction : BaseAction
         {
             case State.SwingingSwordBeforeHit:
                 audioSource = GetComponent<AudioSource>();
+                diceRoll.ThrowDice();
+                state = State.SwingingSwordAfterHit;
+                float afterHitStateTime = 0.5f;
+                stateTimer = afterHitStateTime;
                 if (isRogue)
                 {
                     audioSource.clip = rogueStab;
                     audioSource.Play();
+                    targetUnit.Damage(diceRoll.FindFaceResult() + 4);
 
                 }
                 else if (isKnight)
                 {
                     audioSource.clip = knightStab;
                     audioSource.Play();
+                    targetUnit.Damage(diceRoll.FindFaceResult() + 6);
 
                 }
-                diceRoll.ThrowDice();
-                state = State.SwingingSwordAfterHit;
-                float afterHitStateTime = 0.5f;
-                stateTimer = afterHitStateTime;
-                targetUnit.Damage(diceRoll.FindFaceResult() + 5);
+                else if (isBeeKeeper)
+                {
+                    audioSource.clip = beeKeeperSlap;
+                    audioSource.Play();
+                    targetUnit.Damage(diceRoll.FindFaceResult() + 2);
+                }
                 OnAnySwordHit?.Invoke(this, EventArgs.Empty);
                 break;
             case State.SwingingSwordAfterHit:
@@ -96,7 +104,11 @@ public class SwordAction : BaseAction
         {
             return "Knife";
         }
-        else if (!isRogue || !isKnight)
+        else if (isBeeKeeper)
+        {
+            return "Slap";
+        }
+        else if (isWizard)
         {
             return null;
         }
