@@ -41,6 +41,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3144180946497174104, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
+      propertyPath: diceRoll
+      value: 
+      objectReference: {fileID: 7392620100725109080, guid: 168cf034790e11444bc75b937db727f0, type: 3}
+    - target: {fileID: 3144180946497174104, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
       propertyPath: isKnight
       value: 0
       objectReference: {fileID: 0}
@@ -68,6 +72,10 @@ PrefabInstance:
       propertyPath: isRogue
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3380063642669524520, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
+      propertyPath: diceRoll
+      value: 
+      objectReference: {fileID: 1944014872734030799, guid: 9013a6a01bad20f4d9398654716f19cb, type: 3}
     - target: {fileID: 3380063642669524520, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
       propertyPath: isKnight
       value: 0

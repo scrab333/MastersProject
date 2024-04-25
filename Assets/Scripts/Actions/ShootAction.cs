@@ -95,21 +95,21 @@ public class ShootAction : BaseAction
     private void Shoot()
     {
         audioSource = GetComponent<AudioSource>();
+        diceRoll.ThrowDice();
+        OnAnyShoot?.Invoke(this, new OnShootEventArgs{targetUnit = targetUnit,shootingUnit = unit});
+        OnShoot?.Invoke(this, new OnShootEventArgs { targetUnit = targetUnit, shootingUnit = unit});
         if (isRogue)
         {
             audioSource.clip = rogueShoot;
             audioSource.Play();
+            targetUnit.Damage(diceRoll.FindFaceResult() + 4);
         }
         else if (isWizard)
         {
             audioSource.clip = wizardShoot;
             audioSource.Play();
-        }   
-
-        diceRoll.ThrowDice();
-        OnAnyShoot?.Invoke(this, new OnShootEventArgs{targetUnit = targetUnit,shootingUnit = unit});
-        OnShoot?.Invoke(this, new OnShootEventArgs { targetUnit = targetUnit, shootingUnit = unit});
-        targetUnit.Damage(diceRoll.FindFaceResult() + 3);//reminder to make damage randomized at some point
+            targetUnit.Damage(diceRoll.FindFaceResult() + 3);
+        }
     }
 
     public override string GetActionName()
