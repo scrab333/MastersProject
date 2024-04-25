@@ -17332,7 +17332,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.3006394, y: -0.000000016410379, z: 0.0000000051729154, w: 0.9537379}
+  m_LocalRotation: {x: 0.3006394, y: 0.000000016410379, z: -0.0000000051729154, w: 0.9537379}
   m_LocalPosition: {x: 0, y: 7, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -26296,7 +26296,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1400867066}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.3006394, y: -0.000000016410379, z: 0.0000000051729154, w: 0.9537379}
+  m_LocalRotation: {x: 0.3006394, y: 0.000000016410379, z: -0.0000000051729154, w: 0.9537379}
   m_LocalPosition: {x: 0, y: 7, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -41738,10 +41738,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 886030275184957445, guid: dfe373a6f5c00ba4a95bbbd42f9d4632, type: 3}
+      propertyPath: isCloseCombat
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189919578327816593, guid: dfe373a6f5c00ba4a95bbbd42f9d4632, type: 3}
+      propertyPath: isCloseCombat
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1294487798060258019, guid: dfe373a6f5c00ba4a95bbbd42f9d4632, type: 3}
       propertyPath: diceRoll
       value: 
       objectReference: {fileID: 1595803867}
+    - target: {fileID: 1294487798060258019, guid: dfe373a6f5c00ba4a95bbbd42f9d4632, type: 3}
+      propertyPath: isCloseCombat
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2042354840476223187, guid: dfe373a6f5c00ba4a95bbbd42f9d4632, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.05
@@ -41786,6 +41798,10 @@ PrefabInstance:
       propertyPath: winLoseCondition
       value: 
       objectReference: {fileID: 329481729}
+    - target: {fileID: 6262129924022788666, guid: dfe373a6f5c00ba4a95bbbd42f9d4632, type: 3}
+      propertyPath: isCloseCombat
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7789022965105073641, guid: dfe373a6f5c00ba4a95bbbd42f9d4632, type: 3}
       propertyPath: m_Name
       value: Melee
@@ -41804,16 +41820,24 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 2c52e2fec3d0f0848a32abb8064f2b51, type: 3}
     - target: {fileID: 8773586098743900242, guid: dfe373a6f5c00ba4a95bbbd42f9d4632, type: 3}
       propertyPath: isCloseCombat
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8973475045098333218, guid: dfe373a6f5c00ba4a95bbbd42f9d4632, type: 3}
       propertyPath: diceRoll
       value: 
       objectReference: {fileID: 1879658625}
     - target: {fileID: 8973475045098333218, guid: dfe373a6f5c00ba4a95bbbd42f9d4632, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973475045098333218, guid: dfe373a6f5c00ba4a95bbbd42f9d4632, type: 3}
       propertyPath: windElemtal
       value: 
       objectReference: {fileID: 8300000, guid: 2c52e2fec3d0f0848a32abb8064f2b51, type: 3}
+    - target: {fileID: 8973475045098333218, guid: dfe373a6f5c00ba4a95bbbd42f9d4632, type: 3}
+      propertyPath: isCloseCombat
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -42171,22 +42195,54 @@ PrefabInstance:
       propertyPath: windElemtal
       value: 
       objectReference: {fileID: 8300000, guid: 2c52e2fec3d0f0848a32abb8064f2b51, type: 3}
+    - target: {fileID: 1912652813428660018, guid: 1c0fd27c49bb2cf448e6a0191281c36c, type: 3}
+      propertyPath: isRangeCombat
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2288146960811903810, guid: 1c0fd27c49bb2cf448e6a0191281c36c, type: 3}
       propertyPath: diceRoll
       value: 
       objectReference: {fileID: 1595803867}
+    - target: {fileID: 2288146960811903810, guid: 1c0fd27c49bb2cf448e6a0191281c36c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2288146960811903810, guid: 1c0fd27c49bb2cf448e6a0191281c36c, type: 3}
       propertyPath: windElemtal
       value: 
       objectReference: {fileID: 8300000, guid: 2c52e2fec3d0f0848a32abb8064f2b51, type: 3}
+    - target: {fileID: 2288146960811903810, guid: 1c0fd27c49bb2cf448e6a0191281c36c, type: 3}
+      propertyPath: isRangeCombat
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523123773953986858, guid: 1c0fd27c49bb2cf448e6a0191281c36c, type: 3}
+      propertyPath: isRangeCombat
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5760960852358943345, guid: 1c0fd27c49bb2cf448e6a0191281c36c, type: 3}
       propertyPath: winLoseCondition
       value: 
       objectReference: {fileID: 329481729}
+    - target: {fileID: 7658622183163177749, guid: 1c0fd27c49bb2cf448e6a0191281c36c, type: 3}
+      propertyPath: isCloseCombat
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7658622183163177749, guid: 1c0fd27c49bb2cf448e6a0191281c36c, type: 3}
+      propertyPath: isRangeCombat
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8538923946135333505, guid: 1c0fd27c49bb2cf448e6a0191281c36c, type: 3}
+      propertyPath: isRangeCombat
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8644055097301508595, guid: 1c0fd27c49bb2cf448e6a0191281c36c, type: 3}
       propertyPath: diceRoll
       value: 
       objectReference: {fileID: 1595803867}
+    - target: {fileID: 8644055097301508595, guid: 1c0fd27c49bb2cf448e6a0191281c36c, type: 3}
+      propertyPath: isRangeCombat
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8814896265534420419, guid: 1c0fd27c49bb2cf448e6a0191281c36c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.01
