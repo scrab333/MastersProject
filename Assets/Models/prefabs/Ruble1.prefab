@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ruble1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b401fd2ee174f0844a0dfb04f76a8645, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

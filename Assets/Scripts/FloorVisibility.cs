@@ -40,7 +40,7 @@ public class FloorVisibility : MonoBehaviour
 
         if (showObject || floor == 0)
         {
-            Show();
+            //Show();
         }
         else
         {

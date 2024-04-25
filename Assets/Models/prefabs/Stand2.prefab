@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stand2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9733f5d752d4f0648b644f0d7cd8c39d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
