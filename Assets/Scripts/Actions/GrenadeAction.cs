@@ -36,11 +36,11 @@ public class GrenadeAction : BaseAction
     {
         if (isWizard)
         {
-            return "Grenade";
+            return "Fireball";
         }
         else if (isBeeKeeper)
         {
-            return "Healande";
+            return "Heal missile";
         }
         else if (!isWizard)
         {

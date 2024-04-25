@@ -18,6 +18,7 @@ public class ActionButtonUI : MonoBehaviour
         if (baseAction.GetActionName() == null)
         {
             textMeshPro.text = null;
+            Destroy(gameObject);
         }
         else
         {
