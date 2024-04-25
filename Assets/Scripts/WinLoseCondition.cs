@@ -10,6 +10,41 @@ public class WinLoseCondition : MonoBehaviour
     public List<GameObject> enemies;
     public GameObject winPanel;
     public GameObject loosePanel;
+    public GameObject PausePanel;
+    public GameObject OptionPanel;
+
+    private bool isPaused = false;
+
+    public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (isPaused)
+            {
+                ResumeGame();
+            }
+            else
+            {
+                Pause();
+            }
+        }
+    }
+
+    void Pause()
+    {
+        Time.timeScale = 0f; // Pauses the game by setting the time scale to 0
+        PausePanel.SetActive(true);
+        isPaused = true;
+    }
+
+    void ResumeGame()
+    {
+        Time.timeScale = 1f; // Resumes the game by setting the time scale back to 1
+        PausePanel.SetActive(false);
+        isPaused = false;
+    }
+
+
 
 
     // Function to remove a character from the list when they die
@@ -46,6 +81,8 @@ public class WinLoseCondition : MonoBehaviour
     {
         // For now, let's just print a message to the console
         loosePanel.SetActive(true);
+        Time.timeScale = 1f; // Pauses the game by setting the time scale to 0
+
         // You can add more code here to display a lose screen or perform other actions
     }
 
@@ -53,6 +90,8 @@ public class WinLoseCondition : MonoBehaviour
     {
         // For now, let's just print a message to the console
         winPanel.SetActive(true);
+        Time.timeScale = 1f; // Pauses the game by setting the time scale to 0
+
         // You can add more code here to display a lose screen or perform other actions
     }
 
@@ -61,11 +100,25 @@ public class WinLoseCondition : MonoBehaviour
     {
         Scene scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(scene.name);
+        Time.timeScale = 1f; // Pauses the game by setting the time scale to 0
+
     }
 
     public void Menu()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        Time.timeScale = 1f; // Pauses the game by setting the time scale to 0
+
+    }
+
+    public void OptionPanelOpen()
+    {
+        OptionPanel.SetActive(true);
+    }
+
+    public void OptionPanelClose()
+    {
+        OptionPanel.SetActive(false);
     }
 
 }
