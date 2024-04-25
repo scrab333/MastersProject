@@ -29,6 +29,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3144180946497174104, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
+      propertyPath: windElemtal
+      value: 
+      objectReference: {fileID: 8300000, guid: 2c52e2fec3d0f0848a32abb8064f2b51, type: 3}
+    - target: {fileID: 3144180946497174104, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
       propertyPath: isCloseCombat
       value: 0
       objectReference: {fileID: 0}
@@ -36,6 +40,10 @@ PrefabInstance:
       propertyPath: obstaclesLayerMask.m_Bits
       value: 256
       objectReference: {fileID: 0}
+    - target: {fileID: 3380063642669524520, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
+      propertyPath: melee
+      value: 
+      objectReference: {fileID: 8300000, guid: c768ec32e51709145a0301a9c0b3b61c, type: 3}
     - target: {fileID: 3380063642669524520, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
       propertyPath: isRogue
       value: 0
@@ -1221,6 +1229,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4265547617743291283, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4818639010360812381}
+    - targetCorrespondingSourceObject: {fileID: 4265547617743291283, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6239653435108280254}
   m_SourcePrefab: {fileID: 100100000, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}
 --- !u!1 &728176337231589113 stripped
 GameObject:
@@ -1313,6 +1324,102 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!82 &6239653435108280254
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728176337231589113}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -1206818201150943944, guid: f7e89944625a4ac4f87fa485176c9998, type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &1784874706223209723 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: -6202474393959829103, guid: a44d4db5c29f1fc45aa6dc352ed72957, type: 3}

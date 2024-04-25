@@ -26,6 +26,7 @@ public class SwordAction : BaseAction
     [SerializeField] private AudioClip rogueStab;
     [SerializeField] private AudioClip knightStab;
     [SerializeField] private AudioClip beeKeeperSlap;
+    [SerializeField] private AudioClip melee;
     AudioSource audioSource;
 
     private void Update()
@@ -83,6 +84,12 @@ public class SwordAction : BaseAction
                     audioSource.clip = beeKeeperSlap;
                     audioSource.Play();
                     targetUnit.Damage(diceRoll.FindFaceResult() + 2);
+                }
+                else
+                {
+                    audioSource.clip = melee;
+                    audioSource.Play();
+                    targetUnit.Damage(diceRoll.FindFaceResult());
                 }
                 OnAnySwordHit?.Invoke(this, EventArgs.Empty);
                 break;

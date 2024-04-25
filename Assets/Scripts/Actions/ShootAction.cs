@@ -26,6 +26,7 @@ public class ShootAction : BaseAction
 
     [SerializeField] private AudioClip rogueShoot;
     [SerializeField] private AudioClip wizardShoot;
+    [SerializeField] private AudioClip windElemtal;
     AudioSource audioSource;
      
     private State state;
@@ -109,6 +110,12 @@ public class ShootAction : BaseAction
             audioSource.clip = wizardShoot;
             audioSource.Play();
             targetUnit.Damage(diceRoll.FindFaceResult() + 3);
+        }
+        else
+        {
+            audioSource.clip = windElemtal;
+            audioSource.Play();
+            targetUnit.Damage(diceRoll.FindFaceResult());
         }
     }
 
