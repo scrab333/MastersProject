@@ -109,7 +109,7 @@ public class ShootAction : BaseAction
         {
             audioSource.clip = wizardShoot;
             audioSource.Play();
-            targetUnit.Damage(diceRoll.FindFaceResult() + 100);
+            targetUnit.Damage(diceRoll.FindFaceResult() + 4);
         }
         else
         {

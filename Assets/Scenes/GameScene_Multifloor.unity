@@ -936,6 +936,10 @@ PrefabInstance:
       propertyPath: winLoseCondition
       value: 
       objectReference: {fileID: 329481729}
+    - target: {fileID: 2780259266016581545, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: f9571398d90b01140a5bd27c441b4ffa, type: 3}
     - target: {fileID: 7415620682590967167, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
       propertyPath: m_Name
       value: Melee 1 (3)
@@ -1095,6 +1099,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4237852216400357439, guid: 8822293ec69ea044d814e499a1997088, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: 871bb684f88382b45b7336ac59f317d3, type: 3}
     - target: {fileID: 4565259499292792417, guid: 8822293ec69ea044d814e499a1997088, type: 3}
       propertyPath: winLoseCondition
       value: 
@@ -2596,7 +2604,7 @@ PrefabInstance:
     - target: {fileID: 2506987392294172371, guid: aaf204a7006499e45859afa5aafac365, type: 3}
       propertyPath: diceRoll
       value: 
-      objectReference: {fileID: 1874176849}
+      objectReference: {fileID: 1682766826}
     - target: {fileID: 3967876660498158440, guid: aaf204a7006499e45859afa5aafac365, type: 3}
       propertyPath: m_Name
       value: Knight 1
@@ -2645,6 +2653,10 @@ PrefabInstance:
       propertyPath: winLoseCondition
       value: 
       objectReference: {fileID: 329481729}
+    - target: {fileID: 8605356781205033406, guid: aaf204a7006499e45859afa5aafac365, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: b94b17781714d3042a6f1598839d9159, type: 3}
     m_RemovedComponents:
     - {fileID: 2724286757347877226, guid: aaf204a7006499e45859afa5aafac365, type: 3}
     m_RemovedGameObjects: []
@@ -3009,6 +3021,10 @@ PrefabInstance:
       propertyPath: winLoseCondition
       value: 
       objectReference: {fileID: 329481729}
+    - target: {fileID: 2780259266016581545, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: f9571398d90b01140a5bd27c441b4ffa, type: 3}
     - target: {fileID: 7415620682590967167, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
       propertyPath: m_Name
       value: Melee 1 (13)
@@ -4104,6 +4120,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4237852216400357439, guid: 8822293ec69ea044d814e499a1997088, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: 871bb684f88382b45b7336ac59f317d3, type: 3}
     - target: {fileID: 4565259499292792417, guid: 8822293ec69ea044d814e499a1997088, type: 3}
       propertyPath: winLoseCondition
       value: 
@@ -5874,6 +5894,10 @@ PrefabInstance:
       propertyPath: winLoseCondition
       value: 
       objectReference: {fileID: 329481729}
+    - target: {fileID: 2780259266016581545, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: f9571398d90b01140a5bd27c441b4ffa, type: 3}
     - target: {fileID: 7415620682590967167, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
       propertyPath: m_Name
       value: Melee 1 (2)
@@ -6560,6 +6584,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4237852216400357439, guid: 8822293ec69ea044d814e499a1997088, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: 871bb684f88382b45b7336ac59f317d3, type: 3}
     - target: {fileID: 4565259499292792417, guid: 8822293ec69ea044d814e499a1997088, type: 3}
       propertyPath: winLoseCondition
       value: 
@@ -7293,6 +7321,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4237852216400357439, guid: 8822293ec69ea044d814e499a1997088, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: 871bb684f88382b45b7336ac59f317d3, type: 3}
     - target: {fileID: 4565259499292792417, guid: 8822293ec69ea044d814e499a1997088, type: 3}
       propertyPath: winLoseCondition
       value: 
@@ -10976,6 +11008,10 @@ PrefabInstance:
       propertyPath: winLoseCondition
       value: 
       objectReference: {fileID: 329481729}
+    - target: {fileID: 2780259266016581545, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: f9571398d90b01140a5bd27c441b4ffa, type: 3}
     - target: {fileID: 7415620682590967167, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
       propertyPath: m_Name
       value: Melee 1 (6)
@@ -11720,6 +11756,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4237852216400357439, guid: 8822293ec69ea044d814e499a1997088, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: 871bb684f88382b45b7336ac59f317d3, type: 3}
     - target: {fileID: 4565259499292792417, guid: 8822293ec69ea044d814e499a1997088, type: 3}
       propertyPath: winLoseCondition
       value: 
@@ -12370,6 +12410,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4237852216400357439, guid: 8822293ec69ea044d814e499a1997088, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: 871bb684f88382b45b7336ac59f317d3, type: 3}
     - target: {fileID: 4565259499292792417, guid: 8822293ec69ea044d814e499a1997088, type: 3}
       propertyPath: winLoseCondition
       value: 
@@ -12791,6 +12835,10 @@ PrefabInstance:
       propertyPath: winLoseCondition
       value: 
       objectReference: {fileID: 329481729}
+    - target: {fileID: 2780259266016581545, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: f9571398d90b01140a5bd27c441b4ffa, type: 3}
     - target: {fileID: 7415620682590967167, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
       propertyPath: m_Name
       value: Melee 1 (1)
@@ -14880,6 +14928,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4237852216400357439, guid: 8822293ec69ea044d814e499a1997088, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: 871bb684f88382b45b7336ac59f317d3, type: 3}
     - target: {fileID: 4565259499292792417, guid: 8822293ec69ea044d814e499a1997088, type: 3}
       propertyPath: winLoseCondition
       value: 
@@ -15257,6 +15309,10 @@ PrefabInstance:
       propertyPath: winLoseCondition
       value: 
       objectReference: {fileID: 329481729}
+    - target: {fileID: 2780259266016581545, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: f9571398d90b01140a5bd27c441b4ffa, type: 3}
     - target: {fileID: 7415620682590967167, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
       propertyPath: m_Name
       value: Melee 1 (8)
@@ -16683,6 +16739,10 @@ PrefabInstance:
       propertyPath: winLoseCondition
       value: 
       objectReference: {fileID: 329481729}
+    - target: {fileID: 2780259266016581545, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: f9571398d90b01140a5bd27c441b4ffa, type: 3}
     - target: {fileID: 7415620682590967167, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
       propertyPath: m_Name
       value: Melee 1 (11)
@@ -18126,6 +18186,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4237852216400357439, guid: 8822293ec69ea044d814e499a1997088, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: 871bb684f88382b45b7336ac59f317d3, type: 3}
     - target: {fileID: 4565259499292792417, guid: 8822293ec69ea044d814e499a1997088, type: 3}
       propertyPath: winLoseCondition
       value: 
@@ -18947,17 +19011,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &915973036 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5627528106230940275, guid: 5a5bac94bc65b244693423a3f234dacf, type: 3}
-  m_PrefabInstance: {fileID: 253617595}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0b0b722fb41a0645aa85c20b29e69a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &916409966
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21146,6 +21199,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4237852216400357439, guid: 8822293ec69ea044d814e499a1997088, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: 871bb684f88382b45b7336ac59f317d3, type: 3}
     - target: {fileID: 4565259499292792417, guid: 8822293ec69ea044d814e499a1997088, type: 3}
       propertyPath: winLoseCondition
       value: 
@@ -23052,6 +23109,10 @@ PrefabInstance:
       propertyPath: winLoseCondition
       value: 
       objectReference: {fileID: 329481729}
+    - target: {fileID: 2780259266016581545, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: f9571398d90b01140a5bd27c441b4ffa, type: 3}
     - target: {fileID: 7415620682590967167, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
       propertyPath: m_Name
       value: Melee 1
@@ -24172,6 +24233,10 @@ PrefabInstance:
       propertyPath: winLoseCondition
       value: 
       objectReference: {fileID: 329481729}
+    - target: {fileID: 2780259266016581545, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: f9571398d90b01140a5bd27c441b4ffa, type: 3}
     - target: {fileID: 7415620682590967167, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
       propertyPath: m_Name
       value: Melee 1 (9)
@@ -24545,6 +24610,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4237852216400357439, guid: 8822293ec69ea044d814e499a1997088, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: 871bb684f88382b45b7336ac59f317d3, type: 3}
     - target: {fileID: 4565259499292792417, guid: 8822293ec69ea044d814e499a1997088, type: 3}
       propertyPath: winLoseCondition
       value: 
@@ -28686,6 +28755,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4237852216400357439, guid: 8822293ec69ea044d814e499a1997088, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: 871bb684f88382b45b7336ac59f317d3, type: 3}
     - target: {fileID: 4565259499292792417, guid: 8822293ec69ea044d814e499a1997088, type: 3}
       propertyPath: winLoseCondition
       value: 
@@ -28943,6 +29016,10 @@ PrefabInstance:
       propertyPath: winLoseCondition
       value: 
       objectReference: {fileID: 329481729}
+    - target: {fileID: 2780259266016581545, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: f9571398d90b01140a5bd27c441b4ffa, type: 3}
     - target: {fileID: 7415620682590967167, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
       propertyPath: m_Name
       value: Melee 1 (10)
@@ -31268,6 +31345,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4237852216400357439, guid: 8822293ec69ea044d814e499a1997088, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: 871bb684f88382b45b7336ac59f317d3, type: 3}
     - target: {fileID: 4565259499292792417, guid: 8822293ec69ea044d814e499a1997088, type: 3}
       propertyPath: winLoseCondition
       value: 
@@ -31519,6 +31600,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4237852216400357439, guid: 8822293ec69ea044d814e499a1997088, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: 871bb684f88382b45b7336ac59f317d3, type: 3}
     - target: {fileID: 4565259499292792417, guid: 8822293ec69ea044d814e499a1997088, type: 3}
       propertyPath: winLoseCondition
       value: 
@@ -31765,6 +31850,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4237852216400357439, guid: 8822293ec69ea044d814e499a1997088, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: 871bb684f88382b45b7336ac59f317d3, type: 3}
     - target: {fileID: 4565259499292792417, guid: 8822293ec69ea044d814e499a1997088, type: 3}
       propertyPath: winLoseCondition
       value: 
@@ -33269,6 +33358,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 934303356400603329, guid: 78df7890c1384d740852de6f309dc50d, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: 5922641b6b7b3f14690c62e1ce1b6e11, type: 3}
     - target: {fileID: 1914129945999690891, guid: 78df7890c1384d740852de6f309dc50d, type: 3}
       propertyPath: winLoseCondition
       value: 
@@ -33320,7 +33413,7 @@ PrefabInstance:
     - target: {fileID: 4227567100871117998, guid: 78df7890c1384d740852de6f309dc50d, type: 3}
       propertyPath: diceRoll
       value: 
-      objectReference: {fileID: 1879658625}
+      objectReference: {fileID: 1874176849}
     - target: {fileID: 6602353311841707638, guid: 78df7890c1384d740852de6f309dc50d, type: 3}
       propertyPath: diceRoll
       value: 
@@ -34253,6 +34346,10 @@ PrefabInstance:
       propertyPath: winLoseCondition
       value: 
       objectReference: {fileID: 329481729}
+    - target: {fileID: 2780259266016581545, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: f9571398d90b01140a5bd27c441b4ffa, type: 3}
     - target: {fileID: 7415620682590967167, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
       propertyPath: m_Name
       value: Melee 1 (12)
@@ -34778,6 +34875,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8eec97e661136941a128f38746dc761, type: 3}
+--- !u!114 &1682766826 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 498842342919258448, guid: a8eec97e661136941a128f38746dc761, type: 3}
+  m_PrefabInstance: {fileID: 1682766825}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0b0b722fb41a0645aa85c20b29e69a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1684871525 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6701923639276319735, guid: c798e31dbd7be824d80d5d575928e46d, type: 3}
@@ -37042,6 +37150,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4237852216400357439, guid: 8822293ec69ea044d814e499a1997088, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: 871bb684f88382b45b7336ac59f317d3, type: 3}
     - target: {fileID: 4565259499292792417, guid: 8822293ec69ea044d814e499a1997088, type: 3}
       propertyPath: winLoseCondition
       value: 
@@ -40561,6 +40673,10 @@ PrefabInstance:
       propertyPath: winLoseCondition
       value: 
       objectReference: {fileID: 329481729}
+    - target: {fileID: 2780259266016581545, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: f9571398d90b01140a5bd27c441b4ffa, type: 3}
     - target: {fileID: 7415620682590967167, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
       propertyPath: m_Name
       value: Melee 1 (4)
@@ -42885,6 +43001,10 @@ PrefabInstance:
       propertyPath: winLoseCondition
       value: 
       objectReference: {fileID: 329481729}
+    - target: {fileID: 2780259266016581545, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: f9571398d90b01140a5bd27c441b4ffa, type: 3}
     - target: {fileID: 7415620682590967167, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
       propertyPath: m_Name
       value: Melee 1 (7)
@@ -43505,6 +43625,10 @@ PrefabInstance:
       propertyPath: winLoseCondition
       value: 
       objectReference: {fileID: 329481729}
+    - target: {fileID: 2780259266016581545, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: f9571398d90b01140a5bd27c441b4ffa, type: 3}
     - target: {fileID: 7415620682590967167, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
       propertyPath: m_Name
       value: Melee 15
@@ -43586,6 +43710,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4237852216400357439, guid: 8822293ec69ea044d814e499a1997088, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: 871bb684f88382b45b7336ac59f317d3, type: 3}
     - target: {fileID: 4565259499292792417, guid: 8822293ec69ea044d814e499a1997088, type: 3}
       propertyPath: winLoseCondition
       value: 
@@ -43670,6 +43798,10 @@ PrefabInstance:
       propertyPath: winLoseCondition
       value: 
       objectReference: {fileID: 329481729}
+    - target: {fileID: 2780259266016581545, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: f9571398d90b01140a5bd27c441b4ffa, type: 3}
     - target: {fileID: 7415620682590967167, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
       propertyPath: m_Name
       value: Melee 1 (5)
@@ -43745,6 +43877,10 @@ PrefabInstance:
       propertyPath: winLoseCondition
       value: 
       objectReference: {fileID: 329481729}
+    - target: {fileID: 2780259266016581545, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: f9571398d90b01140a5bd27c441b4ffa, type: 3}
     - target: {fileID: 7415620682590967167, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
       propertyPath: m_Name
       value: Melee 1 (1)
@@ -46543,7 +46679,7 @@ PrefabInstance:
     - target: {fileID: 1768212474312657825, guid: a506fda567d1cca43b0ee54a33104368, type: 3}
       propertyPath: diceRoll
       value: 
-      objectReference: {fileID: 1595803867}
+      objectReference: {fileID: 0}
     - target: {fileID: 2144779882483570641, guid: a506fda567d1cca43b0ee54a33104368, type: 3}
       propertyPath: diceRoll
       value: 
@@ -46551,11 +46687,15 @@ PrefabInstance:
     - target: {fileID: 3667704840911441337, guid: a506fda567d1cca43b0ee54a33104368, type: 3}
       propertyPath: diceRoll
       value: 
-      objectReference: {fileID: 915973036}
+      objectReference: {fileID: 1879658625}
     - target: {fileID: 3667704840911441337, guid: a506fda567d1cca43b0ee54a33104368, type: 3}
       propertyPath: healProjectilePrefab
       value: 
       objectReference: {fileID: 4241540752621966144, guid: e258624e32174d54ca4d15a57526c995, type: 3}
+    - target: {fileID: 5216589309502320828, guid: a506fda567d1cca43b0ee54a33104368, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: ee45749a34859b84d81d6b5d890e0aad, type: 3}
     - target: {fileID: 5616519964535705314, guid: a506fda567d1cca43b0ee54a33104368, type: 3}
       propertyPath: winLoseCondition
       value: 
@@ -46929,6 +47069,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1425885363307056973, guid: 80636f3c9692b0a40bc1bfeb8bd818f8, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 5439654571272722601, guid: 6f1a96d0b184bc2478d042f72e4ecbc4, type: 3}
+    - target: {fileID: 1425885363307056973, guid: 80636f3c9692b0a40bc1bfeb8bd818f8, type: 3}
       propertyPath: originalRootBane
       value: 
       objectReference: {fileID: 43177603}
@@ -46991,7 +47135,7 @@ PrefabInstance:
     - target: {fileID: 4838340002296820816, guid: 80636f3c9692b0a40bc1bfeb8bd818f8, type: 3}
       propertyPath: diceRoll
       value: 
-      objectReference: {fileID: 1874176849}
+      objectReference: {fileID: 1879658625}
     - target: {fileID: 5075282490440198176, guid: 80636f3c9692b0a40bc1bfeb8bd818f8, type: 3}
       propertyPath: diceRoll
       value: 
