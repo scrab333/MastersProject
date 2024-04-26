@@ -29,7 +29,7 @@ public class Unit : MonoBehaviour
         baseActionArray = GetComponents<BaseAction>();
         if(isEnemy == true)
         {
-            actionPoints = ACTION_POINTS_MAX_ENEMY;
+            actionPoints = ACTION_POINTS_MAX_ENEMY; 
         }
     }
 
@@ -136,6 +136,11 @@ public class Unit : MonoBehaviour
             (!IsEnemy() && TurnSystem.Instance.IsPlayerTurn()))
         {
             actionPoints = ACTION_POINTS_MAX;
+
+            if (isEnemy == true)
+            {
+                actionPoints = ACTION_POINTS_MAX_ENEMY;
+            }
 
             OnAnyActionPointsChanged?.Invoke(this, EventArgs.Empty);
 

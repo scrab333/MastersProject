@@ -31321,7 +31321,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1669218578
 Transform:
   m_ObjectHideFlags: 0
@@ -43452,13 +43452,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1039634006862664045, guid: a550dc988f41b404f97999a1c65b6596, type: 3}
+      propertyPath: isSmart
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1039634006862664045, guid: a550dc988f41b404f97999a1c65b6596, type: 3}
+      propertyPath: isCloseCombat
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087625737755793951, guid: a550dc988f41b404f97999a1c65b6596, type: 3}
+      propertyPath: isSmart
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1087625737755793951, guid: a550dc988f41b404f97999a1c65b6596, type: 3}
       propertyPath: isAselios
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087625737755793951, guid: a550dc988f41b404f97999a1c65b6596, type: 3}
+      propertyPath: isCloseCombat
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343545780837814521, guid: a550dc988f41b404f97999a1c65b6596, type: 3}
+      propertyPath: isSmart
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1343545780837814521, guid: a550dc988f41b404f97999a1c65b6596, type: 3}
       propertyPath: isAselios
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343545780837814521, guid: a550dc988f41b404f97999a1c65b6596, type: 3}
+      propertyPath: isCloseCombat
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3655105340566191919, guid: a550dc988f41b404f97999a1c65b6596, type: 3}
       propertyPath: m_Volume
@@ -43469,11 +43493,43 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 329481729}
     - target: {fileID: 5190814114809440966, guid: a550dc988f41b404f97999a1c65b6596, type: 3}
+      propertyPath: isSmart
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5190814114809440966, guid: a550dc988f41b404f97999a1c65b6596, type: 3}
+      propertyPath: diceRoll
+      value: 
+      objectReference: {fileID: 1595803867}
+    - target: {fileID: 5190814114809440966, guid: a550dc988f41b404f97999a1c65b6596, type: 3}
+      propertyPath: isAselios
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5190814114809440966, guid: a550dc988f41b404f97999a1c65b6596, type: 3}
+      propertyPath: isCloseCombat
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5190814114809440966, guid: a550dc988f41b404f97999a1c65b6596, type: 3}
+      propertyPath: aseliosFireball
+      value: 
+      objectReference: {fileID: 8300000, guid: 5e1d1f3831ed1e34caf880a3ee757acc, type: 3}
+    - target: {fileID: 7090570241257712862, guid: a550dc988f41b404f97999a1c65b6596, type: 3}
+      propertyPath: isSmart
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090570241257712862, guid: a550dc988f41b404f97999a1c65b6596, type: 3}
+      propertyPath: diceRoll
+      value: 
+      objectReference: {fileID: 1879658625}
+    - target: {fileID: 7090570241257712862, guid: a550dc988f41b404f97999a1c65b6596, type: 3}
       propertyPath: isAselios
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7090570241257712862, guid: a550dc988f41b404f97999a1c65b6596, type: 3}
-      propertyPath: isAselios
+      propertyPath: isCloseCombat
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7434596365920596142, guid: a550dc988f41b404f97999a1c65b6596, type: 3}
+      propertyPath: isSmart
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7434596365920596142, guid: a550dc988f41b404f97999a1c65b6596, type: 3}
@@ -43488,9 +43544,17 @@ PrefabInstance:
       propertyPath: aseliosHit
       value: 
       objectReference: {fileID: 8300000, guid: 1a7e4c875f32c36418ac5c32e8139c8a, type: 3}
+    - target: {fileID: 7434596365920596142, guid: a550dc988f41b404f97999a1c65b6596, type: 3}
+      propertyPath: isCloseCombat
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7602343738617577929, guid: a550dc988f41b404f97999a1c65b6596, type: 3}
       propertyPath: Loop
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7602343738617577929, guid: a550dc988f41b404f97999a1c65b6596, type: 3}
+      propertyPath: m_Volume
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: 7602343738617577929, guid: a550dc988f41b404f97999a1c65b6596, type: 3}
       propertyPath: m_Enabled

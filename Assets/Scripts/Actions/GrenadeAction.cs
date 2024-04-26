@@ -7,6 +7,7 @@ public class GrenadeAction : BaseAction
 {
     [SerializeField] private AudioClip beekeeperHeal;
     [SerializeField] private AudioClip wizardFireball;
+    [SerializeField] private AudioClip aseliosFireball;
     AudioSource audioSource;
 
 
@@ -107,6 +108,15 @@ public class GrenadeAction : BaseAction
         {
 
             audioSource.clip = wizardFireball;
+            Transform grenadeProjectileTransform = Instantiate(grenadeProjectilePrefab, unit.GetWorldPosition(), Quaternion.identity);
+            GrenadeProjectile grenadeProjectile = grenadeProjectileTransform.GetComponent<GrenadeProjectile>();
+            grenadeProjectile.Setup(gridPosition, OnGrenadeBehaviourComplete);
+            audioSource.Play();
+            animator.SetBool("Attack", true);
+        }
+        else if (isSmart)
+        {
+            audioSource.clip = aseliosFireball;
             Transform grenadeProjectileTransform = Instantiate(grenadeProjectilePrefab, unit.GetWorldPosition(), Quaternion.identity);
             GrenadeProjectile grenadeProjectile = grenadeProjectileTransform.GetComponent<GrenadeProjectile>();
             grenadeProjectile.Setup(gridPosition, OnGrenadeBehaviourComplete);

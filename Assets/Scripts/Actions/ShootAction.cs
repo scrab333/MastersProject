@@ -111,6 +111,12 @@ public class ShootAction : BaseAction
             audioSource.Play();
             targetUnit.Damage(diceRoll.FindFaceResult() + 4);
         }
+        else if (isSmart)
+        {
+            audioSource.clip = windElemtal;
+            audioSource.Play();
+            targetUnit.Damage(diceRoll.FindFaceResult() + 4);
+        }
         else
         {
             audioSource.clip = windElemtal;
