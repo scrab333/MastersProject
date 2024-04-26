@@ -40,6 +40,14 @@ public class HealthSystem : MonoBehaviour
         {
             health = 24;
         }
+        else if (baseAction.isCloseCombat && !baseAction.isAselios)
+        {
+            health = 12;
+        }
+        else if (baseAction.isAselios)
+        {
+            health = 100;
+        }
         healthMax = health;
     }
 

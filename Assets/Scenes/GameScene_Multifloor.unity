@@ -19455,7 +19455,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.3006394, y: -0.000000016410379, z: 0.0000000051729154, w: 0.9537379}
+  m_LocalRotation: {x: 0.3006394, y: 0.000000016410379, z: -0.0000000051729154, w: 0.9537379}
   m_LocalPosition: {x: 0, y: 7, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -29054,7 +29054,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1400867066}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.3006394, y: -0.000000016410379, z: 0.0000000051729154, w: 0.9537379}
+  m_LocalRotation: {x: 0.3006394, y: 0.000000016410379, z: -0.0000000051729154, w: 0.9537379}
   m_LocalPosition: {x: 0, y: 7, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -46516,6 +46516,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7434596365920596142, guid: a550dc988f41b404f97999a1c65b6596, type: 3}
+      propertyPath: diceRoll
+      value: 
+      objectReference: {fileID: 1874176849}
+    - target: {fileID: 7434596365920596142, guid: a550dc988f41b404f97999a1c65b6596, type: 3}
+      propertyPath: isAselios
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7434596365920596142, guid: a550dc988f41b404f97999a1c65b6596, type: 3}
+      propertyPath: aseliosHit
+      value: 
+      objectReference: {fileID: 8300000, guid: 1a7e4c875f32c36418ac5c32e8139c8a, type: 3}
     - target: {fileID: 8284053814953547029, guid: a550dc988f41b404f97999a1c65b6596, type: 3}
       propertyPath: m_Name
       value: Aselios
@@ -46547,7 +46559,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2592642312722929313, guid: 80636f3c9692b0a40bc1bfeb8bd818f8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.59
+      value: 2.13
       objectReference: {fileID: 0}
     - target: {fileID: 2592642312722929313, guid: 80636f3c9692b0a40bc1bfeb8bd818f8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -46592,7 +46604,7 @@ PrefabInstance:
     - target: {fileID: 4838340002296820816, guid: 80636f3c9692b0a40bc1bfeb8bd818f8, type: 3}
       propertyPath: diceRoll
       value: 
-      objectReference: {fileID: 1595803867}
+      objectReference: {fileID: 1874176849}
     - target: {fileID: 5075282490440198176, guid: 80636f3c9692b0a40bc1bfeb8bd818f8, type: 3}
       propertyPath: diceRoll
       value: 
@@ -46616,7 +46628,7 @@ PrefabInstance:
     - target: {fileID: 7587018800133124680, guid: 80636f3c9692b0a40bc1bfeb8bd818f8, type: 3}
       propertyPath: diceRoll
       value: 
-      objectReference: {fileID: 915973036}
+      objectReference: {fileID: 1879658625}
     - target: {fileID: 7587018800133124680, guid: 80636f3c9692b0a40bc1bfeb8bd818f8, type: 3}
       propertyPath: healnadeProjectilePrefab
       value: 

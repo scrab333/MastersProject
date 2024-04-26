@@ -27,6 +27,7 @@ public class SwordAction : BaseAction
     [SerializeField] private AudioClip knightStab;
     [SerializeField] private AudioClip beeKeeperSlap;
     [SerializeField] private AudioClip melee;
+    [SerializeField] private AudioClip aseliosHit;
     AudioSource audioSource;
 
     private void Update()
@@ -84,6 +85,12 @@ public class SwordAction : BaseAction
                     audioSource.clip = beeKeeperSlap;
                     audioSource.Play();
                     targetUnit.Damage(diceRoll.FindFaceResult() + 2);
+                }
+                else if (isAselios)
+                {
+                    audioSource.clip = aseliosHit;
+                    audioSource.Play();
+                    targetUnit.Damage(diceRoll.FindFaceResult() + 6);
                 }
                 else
                 {

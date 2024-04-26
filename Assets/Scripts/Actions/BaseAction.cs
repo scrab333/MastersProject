@@ -22,6 +22,7 @@ public abstract class BaseAction : MonoBehaviour
     [SerializeField] public bool isCloseCombat;
     [SerializeField] public bool isRangeCombat;
     [SerializeField] public bool isSmart;
+    [SerializeField] public bool isAselios;
 
 
     protected Unit unit;
