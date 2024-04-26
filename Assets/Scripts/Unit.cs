@@ -9,6 +9,7 @@ using System;
 public class Unit : MonoBehaviour
 {
     private const int ACTION_POINTS_MAX = 4;
+    private const int ACTION_POINTS_MAX_ENEMY = 2;
     
     
     public static event EventHandler OnAnyActionPointsChanged;
@@ -26,6 +27,10 @@ public class Unit : MonoBehaviour
     {
         healthSystem = GetComponent<HealthSystem>();
         baseActionArray = GetComponents<BaseAction>();
+        if(isEnemy == true)
+        {
+            actionPoints = ACTION_POINTS_MAX_ENEMY;
+        }
     }
 
     private void Start()
