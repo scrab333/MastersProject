@@ -6,11 +6,12 @@ public class Tutorial : MonoBehaviour
 {
     private void Start()
     {
+        ShowTutorial();
+        /*
         // Check if the tutorial has already been shown
         if (!PlayerPrefs.HasKey("TutorialShown"))
         {
             // If the tutorial has not been shown, show it
-            ShowTutorial();
             // Mark the tutorial as shown
             PlayerPrefs.SetInt("TutorialShown", 1);
             PlayerPrefs.Save(); // Save PlayerPrefs changes
@@ -23,6 +24,7 @@ public class Tutorial : MonoBehaviour
             // Or:
             // Destroy(gameObject); // Destroy the tutorial panel GameObject
         }
+        */
     }
 
     void ShowTutorial()
