@@ -50,7 +50,7 @@ public class GrenadeProjectile : MonoBehaviour
                     diceRoll.ThrowDice();
                     if (isWizard)
                     {
-                        targetUnit.Damage(3 + diceRoll.FindFaceResult());
+                        targetUnit.Damage(diceRoll.FindFaceResult());
                     }
                     else if (isBeeKeeper)
                     {

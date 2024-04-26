@@ -112,7 +112,6 @@ public class GrenadeAction : BaseAction
             grenadeProjectile.Setup(gridPosition, OnGrenadeBehaviourComplete);
             audioSource.Play();
             animator.SetBool("Attack", true);
-
         }
 
         ActionStart(onActionComplete);
