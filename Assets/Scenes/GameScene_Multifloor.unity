@@ -936,6 +936,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melee 1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8301175026439303364, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: diceRoll
+      value: 
+      objectReference: {fileID: 1879658625}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2988,7 +2992,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melee 1 (13)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8301175026439303364, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: diceRoll
+      value: 
+      objectReference: {fileID: 1879658625}
+    m_RemovedComponents:
+    - {fileID: 4458482990495834131, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -5840,6 +5849,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melee 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8301175026439303364, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: diceRoll
+      value: 
+      objectReference: {fileID: 1879658625}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10926,6 +10939,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melee 1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8301175026439303364, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: diceRoll
+      value: 
+      objectReference: {fileID: 1879658625}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12725,7 +12742,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melee 1 (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8301175026439303364, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: diceRoll
+      value: 
+      objectReference: {fileID: 1879658625}
+    m_RemovedComponents:
+    - {fileID: 4458482990495834131, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -15178,6 +15200,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melee 1 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8301175026439303364, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: diceRoll
+      value: 
+      objectReference: {fileID: 1879658625}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16596,6 +16622,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melee 1 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 8301175026439303364, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: diceRoll
+      value: 
+      objectReference: {fileID: 1879658625}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19488,7 +19518,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.3006394, y: -0.000000016410379, z: 0.0000000051729154, w: 0.9537379}
+  m_LocalRotation: {x: 0.3006394, y: 0.000000016410379, z: -0.0000000051729154, w: 0.9537379}
   m_LocalPosition: {x: 0, y: 7, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -22949,7 +22979,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melee 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8301175026439303364, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: diceRoll
+      value: 
+      objectReference: {fileID: 1879658625}
+    m_RemovedComponents:
+    - {fileID: 4458482990495834131, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -23963,6 +23998,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melee 1 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8301175026439303364, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: diceRoll
+      value: 
+      objectReference: {fileID: 1879658625}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28718,6 +28757,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melee 1 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8301175026439303364, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: diceRoll
+      value: 
+      objectReference: {fileID: 1879658625}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29099,7 +29142,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1400867066}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.3006394, y: -0.000000016410379, z: 0.0000000051729154, w: 0.9537379}
+  m_LocalRotation: {x: 0.3006394, y: 0.000000016410379, z: -0.0000000051729154, w: 0.9537379}
   m_LocalPosition: {x: 0, y: 7, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -34136,6 +34179,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melee 1 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8301175026439303364, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: diceRoll
+      value: 
+      objectReference: {fileID: 1879658625}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -40432,6 +40479,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melee 1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8301175026439303364, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: diceRoll
+      value: 
+      objectReference: {fileID: 1879658625}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -42651,6 +42702,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melee 1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8301175026439303364, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: diceRoll
+      value: 
+      objectReference: {fileID: 1879658625}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -43263,6 +43318,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melee 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8301175026439303364, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: diceRoll
+      value: 
+      objectReference: {fileID: 1879658625}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -43416,6 +43475,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melee 1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8301175026439303364, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: diceRoll
+      value: 
+      objectReference: {fileID: 1879658625}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -43483,6 +43546,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melee 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8301175026439303364, guid: 95d19babc0a6d964c88f37f49c592f47, type: 3}
+      propertyPath: diceRoll
+      value: 
+      objectReference: {fileID: 1879658625}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
