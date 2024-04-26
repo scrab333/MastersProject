@@ -134,11 +134,22 @@ public class SwordAction : BaseAction
 
     public override EnemyAIAction GetEnemyAIAction(GridPosition gridPosition)
     {
-        return new EnemyAIAction
+        if (isCloseCombat == true)
         {
-            gridPosition = gridPosition,
-            actionValue = 200,
-        };
+            return new EnemyAIAction
+            {
+                gridPosition = gridPosition,
+                actionValue = 20000,
+            };
+        }
+        else
+        {
+            return new EnemyAIAction
+            {
+                gridPosition = gridPosition,
+                actionValue = 200,
+            };
+        }
     }
 
     public override List<GridPosition> GetValidActionGridPositionList()
